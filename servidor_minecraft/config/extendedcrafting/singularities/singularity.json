@@ -1,0 +1,7 @@
+{
+    "name": "Singularity",
+    "colors": ["12004F", "355BFC"],
+    "ingredient": {
+        "item": "appliedenergistics2:singularity"
+    }
+}

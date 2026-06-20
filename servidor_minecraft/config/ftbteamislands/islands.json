@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Main Islands",
+        "author": "FTB Team",
+        "desc": "Island built by FTB!",
+        "islands": [
+            {
+                "name": "The island",
+                "desc": "This is the default island",
+                "structure": "island.nbt",
+                "image": "ftboceanblock:textures/islands/island.png",
+                "yOffset": -18
+            },
+            {
+                "name": "Cottage",
+                "desc": "An island with a cottage!",
+                "structure": "cottage.nbt",
+                "image": "ftboceanblock:textures/islands/cottage.png",
+                "yOffset": -3
+            },
+            {
+                "name": "The Skyblock",
+                "desc": "Skyblock but in water?",
+                "structure": "skyblock.nbt",
+                "image": "ftboceanblock:textures/islands/skyblock.png",
+                "yOffset": 2
+            }
+        ]
+    },
+    {
+        "name": "Naxanria",
+        "author": "Naxanria",
+        "desc": "Island built by Naxanria back in FTB Sky Odyssey",
+        "islands": [
+            {
+                "name": "Hell",
+                "desc": "A small part of hell",
+                "structure": "nax/hell.nbt",
+                "image": "ftboceanblock:textures/islands/nax/hell.png",
+                "yOffset": 0
+            },
+            {
+                "name": "End",
+                "desc": "The end, well an island themed like that",
+                "structure": "nax/end.nbt",
+                "image": "ftboceanblock:textures/islands/nax/end.png",
+                "yOffset": -2
+            }
+        ]
+    },
+    {
+        "name": "Community",
+        "author": "Community",
+        "desc": "Island's submitted by the community and from build competition",
+        "islands": [
+            {
+                "name": "Easy Starter",
+                "desc": "Easy starter is Blackout's take on a easy starting island.",
+                "structure": "comp/easy_start_island.nbt",
+                "image": "ftboceanblock:textures/islands/comp/easy.png",
+                "yOffset": -13
+            },
+            {
+                "name": "Globe",
+                "desc": "Spawn in a globe deep under the water! - By Manmaed",
+                "structure": "comp/globe.nbt",
+                "image": "ftboceanblock:textures/islands/comp/globe.png",
+                "yOffset": -106
+            }
+        ]
+    }
+]

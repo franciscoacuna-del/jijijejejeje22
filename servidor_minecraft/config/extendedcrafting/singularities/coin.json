@@ -1,0 +1,7 @@
+{
+    "name": "Coin",
+    "colors": ["F9E54F", "748190"],
+    "ingredient": {
+        "tag": "forge:coins"
+    }
+}

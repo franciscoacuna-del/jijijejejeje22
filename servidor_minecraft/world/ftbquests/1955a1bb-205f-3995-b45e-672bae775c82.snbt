@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "1955a1bb205f3995b45e672bae775c82"
+	name: "antitooo"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

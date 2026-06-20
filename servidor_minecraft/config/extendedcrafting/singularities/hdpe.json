@@ -1,0 +1,7 @@
+{
+    "name": "HDPE Sheet",
+    "colors": ["F2F2ED", "F2F2ED"],
+    "ingredient": {
+        "item": "mekanism:hdpe_sheet"
+    }
+}

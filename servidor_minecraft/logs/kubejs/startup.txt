@@ -1,0 +1,10 @@
+[01:29:43] [INFO ] Loaded script startup_scripts:global.js in 0.395 s
+[01:29:43] [INFO ] Loaded script startup_scripts:forgevent.js in 0.051 s
+[01:29:43] [INFO ] Loaded script startup_scripts:worldgen.js in 0.043 s
+[01:29:43] [INFO ] Loaded script startup_scripts:registry/item_registry.js in 0.007 s
+[01:29:43] [INFO ] Loaded script startup_scripts:registry/block_registry.js in 0.018 s
+[01:29:43] [INFO ] Loaded script startup_scripts:tools.js in 0.096 s
+[01:29:43] [INFO ] Loaded script startup_scripts:registry/fluid_registry.js in 0.001 s
+[01:29:43] [INFO ] Loaded script startup_scripts:wrench_blacklist.js in 0.003 s
+[01:29:43] [INFO ] Loaded script startup_scripts:ftbstructures.js in 0.01 s
+[01:29:43] [INFO ] Loaded 9/9 KubeJS startup scripts in 1.203 s

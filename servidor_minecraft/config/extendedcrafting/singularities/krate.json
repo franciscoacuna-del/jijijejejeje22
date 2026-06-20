@@ -1,0 +1,7 @@
+{
+    "name": "Basic Krate",
+    "colors": ["B2925D", "B2925D"],
+    "ingredient": {
+        "item": "krate:krate_basic"
+    }
+}

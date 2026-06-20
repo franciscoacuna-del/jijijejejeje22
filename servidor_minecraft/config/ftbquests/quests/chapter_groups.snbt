@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "0AC85E64CC2953A8", title: "Storage" }
+		{ id: "23AAC73AF75BB04B", title: "Tech" }
+		{ id: "2FF28F07FF34C040", title: "Magic" }
+		{ id: "33BB1A9CE7EF756A", title: "Misc" }
+		{ id: "080079B4B8239916", title: "Endgame" }
+	]
+}

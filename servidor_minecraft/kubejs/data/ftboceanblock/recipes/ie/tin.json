@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/tin"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "thermal:tin_plate"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Pig Iron Ingot",
+    "colors": ["C67C80", "C67C80"],
+    "ingredient": {
+        "item": "tconstruct:pig_iron_ingot"
+    }
+}

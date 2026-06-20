@@ -1,0 +1,146 @@
+{
+	id: "5D24D61536E3A0FB"
+	order_index: 12
+	title: "leg-a"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{
+			item: {
+				id: "mysticalagriculture:imperium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_obsidian_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "ironchest:dirt_chest", weight: 5 }
+		{ item: "betterendforge:aeternium_anvil", weight: 5 }
+		{ item: "minecraft:bedrock", weight: 5 }
+		{ item: "minecraft:clay_ball", weight: 5 }
+		{ item: "minecraft:clay", weight: 5 }
+		{ item: "mysticalagriculture:supremium_furnace", weight: 5 }
+		{
+			item: {
+				id: "betterendforge:aeternium_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "miniutilities:unstable_drum"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						FluidName: "minecraft:empty"
+						Capacity: 2147483647
+						Amount: 0
+						x: -2
+						y: 106
+						z: 98
+						id: "miniutilities:drum"
+					}
+				}
+			}
+			weight: 5
+		}
+		{ item: "mob_grinding_utils:saw", weight: 5 }
+		{ item: "ftbsluice:diamond_mesh", weight: 5 }
+		{ item: "ftbjarmod:tempered_jar", weight: 5 }
+		{ item: "ftbsluice:netherite_sluice", weight: 5 }
+		{ item: "powah:thermo_generator_hardened", weight: 5 }
+		{ item: "mekanismgenerators:wind_generator", weight: 5 }
+		{ item: "mekanism:crusher", weight: 5 }
+		{ item: "fluxnetworks:herculean_flux_storage", weight: 5 }
+		{ item: "refinedstorage:64k_storage_part", weight: 5 }
+		{ item: "refinedstorage:4096k_fluid_storage_part", weight: 5 }
+		{ item: "storagedrawers:emerald_storage_upgrade", weight: 5 }
+		{ item: "miniutilities:kikoku", weight: 5 }
+		{ item: "bloodmagic:experiencebook", weight: 5 }
+		{
+			item: {
+				id: "mysticalagriculture:supremium_watering_can"
+				Count: 1b
+				tag: {
+					Water: 0b
+					Active: 0b
+				}
+			}
+			weight: 5
+		}
+		{ item: "minecraft:diamond_block", weight: 5 }
+		{ item: "industrialforegoing:supreme_black_hole_tank", weight: 5 }
+		{
+			item: {
+				id: "botania:manaweave_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "powah:energizing_rod_niotic", weight: 5 }
+		{ item: "powah:energy_hopper_niotic", weight: 5 }
+		{
+			item: {
+				id: "powah:battery_niotic"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "draconicevolution:wyvern_axe"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: {
+						module_host: {
+							provider_id: [I;
+								1244162711
+								1217743978
+								-1830937807
+								870386358
+							]
+							modules: [ ]
+							properties: {
+								mining_speed: {
+									hud: 1b
+									value: 1.0d
+								}
+							}
+						}
+						energy: {
+							energy: 0L
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{ item: "mysticalagriculture:manyullyn_seeds", weight: 2 }
+		{ item: "mysticalagriculture:enderium_seeds", weight: 2 }
+		{ item: "mysticalagriculture:iridium_seeds", weight: 2 }
+		{ item: "mysticalagriculture:platinum_seeds", weight: 2 }
+		{ item: "mysticalagriculture:wither_skeleton_seeds", weight: 2 }
+		{ item: "ftbsluice:clay_bucket", count: 16 }
+	]
+}

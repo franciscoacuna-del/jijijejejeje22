@@ -1,0 +1,115 @@
+{
+	id: "1F5C24EB8B42868E"
+	order_index: 0
+	title: "early-a"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "rid:3x_compressed_cobblestone", weight: 5 }
+		{ item: "rid:3x_compressed_stone", weight: 5 }
+		{ item: "mekanism:basic_compressing_factory" }
+		{
+			item: {
+				id: "mekanismtools:bronze_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{ item: "miniutilities:cursed_earth", count: 32 }
+		{ item: "botania:dirt_rod", weight: 3 }
+		{ item: "elevatorid:elevator_white", count: 2, weight: 3 }
+		{ item: "mob_grinding_utils:fan", weight: 3 }
+		{ item: "storagedrawers:gold_storage_upgrade", count: 3, weight: 3 }
+		{ item: "notenoughwands:illumination_wand", weight: 4 }
+		{ item: "rid:iron_cluster", count: 64, weight: 3 }
+		{ item: "miniutilities:iron_spikes", weight: 4 }
+		{ item: "krate:krate_basic", weight: 4 }
+		{ item: "krate:krate_big", weight: 3 }
+		{ item: "krate:krate_large", weight: 2 }
+		{ item: "krate:krate_small", weight: 5 }
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "botania:mana_ring_greater"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3
+		}
+		{ item: "mcwroofs:oak_roof", count: 64, weight: 4 }
+		{ item: "obsidianboat:obsidianboat", weight: 5 }
+		{
+			item: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.14f
+						"tconstruct:mining_speed": 5.85f
+						"tconstruct:attack_damage": 4.5f
+						"tconstruct:harvest_level": 4.0f
+						"tconstruct:durability": 1375.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:insatiable"
+							level: 3s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:manyullyn"
+						"tconstruct:manyullyn"
+						"tconstruct:manyullyn"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			weight: 2
+		}
+		{ item: "industrialforegoing:plant_gatherer" }
+		{ item: "mob_grinding_utils:saw" }
+		{ item: "storagedrawers:iron_storage_upgrade", count: 3, weight: 4 }
+		{ item: "refinedstorage:1k_storage_part" }
+		{ item: "rftoolsstorage:storage_module0", weight: 3 }
+		{ item: "industrialforegoing:laser_lens0", weight: 4 }
+		{ item: "industrialforegoing:laser_lens1", weight: 4 }
+		{ item: "immersiveengineering:shader_bag_common", weight: 4 }
+		{
+			item: {
+				id: "powah:battery_starter"
+				Count: 1b
+				tag: { }
+			}
+			weight: 2
+		}
+		{ item: "bloodmagic:infusedslate", weight: 2 }
+		{ item: "bloodmagic:reinforcedslate", weight: 2 }
+		{ item: "mysticalagriculture:fire_seeds" }
+		{ item: "mysticalagriculture:inferium_seeds" }
+		{ item: "mysticalagriculture:ice_seeds" }
+	]
+}

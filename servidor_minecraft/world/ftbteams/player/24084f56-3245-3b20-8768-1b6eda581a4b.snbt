@@ -1,0 +1,18 @@
+{
+	id: "24084f56-3245-3b20-8768-1b6eda581a4b"
+	type: "player"
+	player_name: "RedWhite223"
+	ranks: { }
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbteams:display_name": "RedWhite223"
+		"ftbteams:color": "#A7FF59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,170 @@
+{
+	id: "7F68ECFCE4D3B4E9"
+	order_index: 1
+	title: "early-b"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "rid:3x_compressed_gravel", weight: 5 }
+		{
+			item: {
+				id: "mekanismtools:bronze_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "mekanismtools:lapis_lazuli_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{ item: "miniutilities:blessed_earth", count: 16, weight: 2 }
+		{ item: "miniutilities:iron_spikes" }
+		{ item: "mob_grinding_utils:tank", weight: 3 }
+		{ item: "mob_grinding_utils:absorption_hopper", weight: 3 }
+		{ item: "mcwroofs:birch_top_roof", count: 64, weight: 5 }
+		{ item: "mysticalagriculture:inferium_furnace", weight: 4 }
+		{ item: "mysticalagriculture:inferium_growth_accelerator" }
+		{
+			item: {
+				id: "mysticalagradditions:inferium_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{ item: "mysticalagradditions:inferium_apple", count: 64, weight: 2 }
+		{ item: "industrialforegoing:common_black_hole_tank" }
+		{ item: "industrialforegoing:plant_fertilizer" }
+		{ item: "rid:tin_cluster", count: 64, weight: 2 }
+		{ item: "krate:krate_small", weight: 5 }
+		{ item: "krate:krate_basic", weight: 4 }
+		{ item: "krate:krate_big", weight: 3 }
+		{ item: "krate:krate_large", weight: 2 }
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:manyullyn"
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "tconstruct:sledge_hammer"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.4f
+						"tconstruct:attack_damage": 1.35f
+						"tconstruct:durability": 4.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.75f
+						"tconstruct:mining_speed": 1.36f
+						"tconstruct:attack_damage": 4.59f
+						"tconstruct:harvest_level": 2.0f
+						"tconstruct:durability": 1948.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:overslime"
+							level: 4s
+						}
+						{
+							name: "tconstruct:overgrowth"
+							level: 4s
+						}
+						{
+							name: "tconstruct:smite"
+							level: 2s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:slimewood"
+						"tconstruct:slimewood"
+						"tconstruct:slimewood"
+						"tconstruct:slimewood"
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:overslime_cap": 200
+						"tconstruct:overslime_friend": 1b
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+						"tconstruct:overslime": 5
+					}
+				}
+			}
+		}
+		{ item: "botania:skydirt_rod", weight: 3 }
+		{
+			item: {
+				id: "botania:travel_belt"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3
+		}
+		{ item: "elevatorid:elevator_white", count: 2, weight: 3 }
+		{ item: "storagedrawers:gold_storage_upgrade", count: 3 }
+		{ item: "obsidianboat:obsidianboat" }
+		{ item: "refinedstorage:1k_storage_part", count: 3, weight: 2 }
+		{ item: "refinedstorage:silicon", count: 32, weight: 4 }
+		{ item: "industrialforegoing:laser_lens1", weight: 4 }
+		{ item: "industrialforegoing:laser_lens2", weight: 4 }
+		{ item: "powah:energizing_rod_starter", weight: 3 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "draconicevolution:reaper_enchantment"
+					}]
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "bloodmagic:bloodlightsigil"
+				Count: 1b
+				tag: { }
+			}
+			weight: 2
+		}
+		{ item: "bloodmagic:blankslate" }
+		{
+			item: {
+				id: "botania:aura_ring"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "mysticalagriculture:wood_seeds" }
+		{ item: "mysticalagriculture:stone_seeds" }
+	]
+}

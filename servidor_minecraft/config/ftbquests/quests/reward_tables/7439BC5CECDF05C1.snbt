@@ -1,0 +1,129 @@
+{
+	id: "7439BC5CECDF05C1"
+	order_index: 11
+	title: "end-c"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "simplyjetpacks:jetpack_vanilla4", weight: 2 }
+		{ item: "mysticalagriculture:tertium_growth_accelerator", weight: 5 }
+		{ item: "mysticalagradditions:imperium_apple", count: 64, weight: 2 }
+		{ item: "extrastorage:block_4096k", weight: 3 }
+		{ item: "extrastorage:diamond_crafter", weight: 5 }
+		{
+			item: {
+				id: "betterendforge:crystalite_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "betterendforge:aeternium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:mycelial_meatallurgic", weight: 4 }
+		{ item: "rftoolsstorage:storage_module3", weight: 3 }
+		{
+			item: {
+				id: "botania:terrasteel_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "industrialforegoing:range_addon8"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 8.0f
+					}
+				}
+			}
+			weight: 3
+		}
+		{ item: "industrialforegoing:machine_frame_supreme", count: 3, weight: 5 }
+		{ item: "immersiveengineering:shader_bag_epic", weight: 5 }
+		{
+			item: {
+				id: "powah:battery_blazing"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "draconicevolution:reaper_enchantment"
+					}]
+				}
+			}
+			weight: 5
+		}
+		{ item: "draconicevolution:draconium_ingot", count: 32, weight: 5 }
+		{ item: "bloodmagic:masterbloodorb", weight: 5 }
+		{
+			item: {
+				id: "botania:knockback_belt"
+				Count: 1b
+				tag: {
+					baubleUUIDMost: -5718417566088477794L
+					baubleUUIDLeast: -7270136912637591326L
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:water_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:magnet_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:aura_ring_greater"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{ item: "mysticalagriculture:nickel_seeds", weight: 2 }
+		{ item: "mysticalagriculture:steel_seeds", weight: 2 }
+		{ item: "mysticalagriculture:enderman_seeds", weight: 2 }
+		{ item: "mysticalagriculture:ghast_seeds", weight: 2 }
+		{ item: "mysticalagriculture:blaze_seeds", weight: 2 }
+		{ item: "mysticalagriculture:experience_seeds", weight: 2 }
+		{ item: "mysticalagriculture:end_seeds", weight: 2 }
+		{ item: "mysticalagriculture:lapis_lazuli_seeds", weight: 2 }
+		{ item: "mysticalagriculture:gold_seeds", weight: 2 }
+		{ item: "mysticalagriculture:energized_steel_seeds", weight: 2 }
+	]
+}

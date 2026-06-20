@@ -1,0 +1,25 @@
+{
+	"mod": "draconicevolution",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"draconic_guardian": {
+						// Do not edit this name
+						"name": "draconic_guardian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"guardian_wither": {
+						// Do not edit this name
+						"name": "guardian_wither",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/lumium"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "thermal:lumium_plate"
+    }
+}

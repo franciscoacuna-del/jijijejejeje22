@@ -1,0 +1,96 @@
+{
+	id: "654C6DB12A7900EC"
+	order_index: 14
+	title: "leg-c"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "simplyjetpacks:jetpack_mek4", weight: 5 }
+		{ item: "mysticalagriculture:supremium_growth_accelerator", weight: 5 }
+		{ item: "mysticalagradditions:insanium_apple", count: 64, weight: 2 }
+		{ item: "extrastorage:block_16384k", weight: 5 }
+		{ item: "industrialforegoing:supreme_black_hole_unit", weight: 5 }
+		{
+			item: {
+				id: "industrialforegoing:infinity_saw"
+				Count: 1b
+				tag: {
+					CanCharge: 1b
+					Special: 0b
+					Selected: "POOR"
+					Energy: 0L
+					Fluid: {
+						FluidName: "biofuel"
+						Amount: 0
+					}
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:manaweave_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "immersiveengineering:shader_bag_ie_masterwork", weight: 5 }
+		{ item: "powah:energizing_rod_nitro", weight: 5 }
+		{ item: "powah:energy_hopper_nitro", weight: 5 }
+		{
+			item: {
+				id: "powah:battery_nitro"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "draconicevolution:reaper_enchantment"
+					}]
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "draconicevolution:wyvern_hoe"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: {
+						module_host: {
+							provider_id: [I;
+								-1089057152
+								13914065
+								-1272489711
+								1509893275
+							]
+							modules: [ ]
+							properties: { }
+						}
+						energy: {
+							energy: 0L
+						}
+					}
+				}
+			}
+			weight: 5
+		}
+		{ item: "mysticalagriculture:niotic_crystal_seeds", weight: 5 }
+		{ item: "mysticalagriculture:terrasteel_seeds", weight: 5 }
+		{ item: "mysticalagriculture:hepatizon_seeds", weight: 5 }
+		{ item: "mysticalagriculture:queens_slime_seeds", weight: 5 }
+		{ item: "minecraft:clay", count: 64, weight: 5 }
+	]
+}

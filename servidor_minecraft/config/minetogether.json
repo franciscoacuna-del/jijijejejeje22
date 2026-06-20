@@ -1,0 +1,21 @@
+{
+    "curseProjectID": "Insert curse project ID here",
+    "promoCode": "FEEDME",
+    "creeperhostEnabled": false,
+    "mainMenuEnabled": false,
+    "serverHostButtonImage": false,
+    "serverHostMenuImage": false,
+    "sivIntegration": false,
+    "serverListEnabled": false,
+    "chatEnabled": true,
+    "autoMT": false,
+    "enableFriendOnlineToasts": true,
+    "enableMainMenuFriends": false,
+    "replaceRealms": false,
+    "issueTrackerUrl": "https://github.com/FTBTeam/FTB-Modpack-Issues",
+    "firstConnect": "",
+    "pregenDiameter": 120,
+    "selectedTab": "VANILLA",
+	"mpMenuEnabled": false,
+	"mainMenuButtons": false
+}

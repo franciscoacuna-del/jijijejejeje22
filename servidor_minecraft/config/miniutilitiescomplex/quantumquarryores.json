@@ -1,0 +1,122 @@
+[
+    {
+        "name": "minecraft:coal_ore",
+        "weight": 4,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "minecraft:iron_ore",
+        "weight": 3,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "minecraft:gold_ore",
+        "weight": 1,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "minecraft:diamond_ore",
+        "weight": 1,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "minecraft:lapis_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "minecraft:redstone_ore",
+        "weight": 4,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "minecraft:emerald_ore",
+        "weight": 1,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "mysticalagriculture:soulium_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "mysticalagriculture:inferium_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "mysticalagriculture:prosperity_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "powah:uraninite_ore_dense",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "powah:uraninite_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "powah:uraninite_ore_poor",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "appliedenergistics2:charged_quartz_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "appliedenergistics2:quartz_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "thermal:copper_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "immersiveengineering:ore_aluminum",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "mekanism:fluorite_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "mekanism:osmium_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    },
+    {
+        "name": "mekanism:uranium_ore",
+        "weight": 2,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+    }
+]

@@ -1,0 +1,112 @@
+{
+	id: "05CBB95D64285CD1"
+	order_index: 9
+	title: "end-a"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "mekanism:ultimate_compressing_factory", weight: 4 }
+		{ item: "notenoughwands:acceleration_wand", weight: 4 }
+		{ item: "mysticalagriculture:imperium_furnace", weight: 4 }
+		{
+			item: {
+				id: "mysticalagradditions:imperium_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "theoneprobe:diamond_helmet_probe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "betterendforge:crystalite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:advanced_black_hole_tank", weight: 4 }
+		{ item: "industrialforegoing:mycelial_netherstar", weight: 2 }
+		{
+			item: {
+				id: "industrialforegoing:range_addon6"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 6.0f
+					}
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "botania:terrasteel_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "powah:energizing_rod_blazing", weight: 5 }
+		{ item: "draconicevolution:draconium_ingot", count: 32, weight: 3 }
+		{ item: "draconicevolution:awakened_draconium_ingot", count: 32 }
+		{
+			item: {
+				id: "botania:super_travel_belt"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:swap_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "botania:reach_ring"
+				Count: 1b
+				tag: {
+					baubleUUIDMost: -8677777051780955145L
+					baubleUUIDLeast: -7268713975698626288L
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "botania:mana_ring_greater"
+				Count: 1b
+				tag: { }
+			}
+			weight: 4
+		}
+		{ item: "mysticalagriculture:lumium_seeds", weight: 2 }
+		{ item: "mysticalagriculture:uranium_seeds", weight: 2 }
+		{ item: "mysticalagriculture:titanium_seeds", weight: 2 }
+		{ item: "mysticalagriculture:invar_seeds", weight: 2 }
+		{ item: "mysticalagriculture:electrum_seeds", weight: 2 }
+		{ item: "mysticalagriculture:constantan_seeds", weight: 2 }
+		{ item: "mysticalagriculture:blazing_crystal_seeds", weight: 2 }
+	]
+}

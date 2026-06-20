@@ -1,0 +1,891 @@
+{
+	id: "317A5DDC089E6718"
+	group: "0AC85E64CC2953A8"
+	order_index: 1
+	filename: "digital_storage"
+	title: "Digital Storage"
+	icon: "chisel:futura/controller_purple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -3.5d
+			description: ["Can store up to 8 Storage Disks"]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "3EC666D2B5551BD2"
+			tasks: [{
+				id: "48D0828E6B1A23A7"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "685F0034F5AC5C4A"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			description: ["Lowest Tier Storage Disk, which can contain 1,000 bytes of storage."]
+			dependencies: ["3EC666D2B5551BD2"]
+			id: "5896BC290D24C1C4"
+			tasks: [{
+				id: "5FA762BFA86057DA"
+				type: "item"
+				item: "refinedstorage:1k_storage_disk"
+			}]
+			rewards: [{
+				id: "11A5E7A71CD48BFB"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			description: ["Lower Tier Storage Disk, which can contain 4,000 bytes of storage."]
+			dependencies: ["5896BC290D24C1C4"]
+			id: "07725BB1579D0543"
+			tasks: [{
+				id: "2E62D6D3105463F8"
+				type: "item"
+				item: "refinedstorage:4k_storage_disk"
+			}]
+			rewards: [{
+				id: "063F16DE83BE8505"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			description: ["Middle Tier Storage Disk, which can contain 16,000 bytes of storage."]
+			dependencies: ["07725BB1579D0543"]
+			id: "7C6F7875180BC863"
+			tasks: [{
+				id: "3C4450140BD71594"
+				type: "item"
+				item: "refinedstorage:16k_storage_disk"
+			}]
+			rewards: [{
+				id: "514F6774AE9C11EB"
+				type: "random"
+				table_id: 6762063051178115619L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			description: ["Highest Tier Storage Disk, which can contain 64,000 bytes of storage."]
+			dependencies: ["7C6F7875180BC863"]
+			id: "293E0401324B7E52"
+			tasks: [{
+				id: "431A616BC78C3020"
+				type: "item"
+				item: "refinedstorage:64k_storage_disk"
+			}]
+			rewards: [{
+				id: "406D6E70620EBA16"
+				type: "random"
+				table_id: 3320101480251117645L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: ["Lowest Tier Storage Disk, which can contain 64 buckets of fluid."]
+			dependencies: ["3EC666D2B5551BD2"]
+			id: "6AA7087CBBE90C1B"
+			tasks: [{
+				id: "39AA72BE2ABAE00A"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_disk"
+			}]
+			rewards: [{
+				id: "7ADABC143FE98912"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			description: ["Lower Tier Storage Disk, which can contain 256 buckets of fluid."]
+			dependencies: ["6AA7087CBBE90C1B"]
+			id: "76E27BCB1E202575"
+			tasks: [{
+				id: "5C20CC6978B34ED7"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_disk"
+			}]
+			rewards: [{
+				id: "730C9DCF04734B7A"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			description: ["Middle Tier Storage Disk, which can contain 1024 buckets of fluid."]
+			dependencies: ["76E27BCB1E202575"]
+			id: "68427C19926E2C48"
+			tasks: [{
+				id: "191B5D5BF0A10CDF"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_disk"
+			}]
+			rewards: [{
+				id: "08950771681F7C38"
+				type: "random"
+				table_id: 526035488461340715L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			description: ["Highest Tier Storage Disk, which can contain 4096 buckets of fluid."]
+			dependencies: ["68427C19926E2C48"]
+			id: "7EB05E8FD6F45DF0"
+			tasks: [{
+				id: "79B89864555B800A"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+			}]
+			rewards: [{
+				id: "5522B52988457186"
+				type: "random"
+				table_id: 6762063051178115619L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["The interface to access the items in your system."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "074B3D9FBDD51BFD"
+			tasks: [{
+				id: "452CC91D5F84C953"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			rewards: [{
+				id: "6E095809665AD654"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["A Grid but with a 3x3 crafting grid in it."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "589178B4380114F7"
+			tasks: [{
+				id: "7B4D8DECDFC4B11C"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "3D385EFAAD51463E"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["The interface to access the fluids in your system."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "34F3B4A4267A16D3"
+			tasks: [{
+				id: "3A1725F77000E482"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [{
+				id: "6FC3072E7549E176"
+				type: "random"
+				table_id: 2261028096212866707L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			description: ["The brain of the network."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "42FDA108DE7E445E"
+			tasks: [{
+				id: "03229361B85F9688"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "5DD1841B7F8E0A84"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "7BC60B8CFF91C4AA"
+			tasks: [{
+				id: "3EACD60DD9D9298E"
+				type: "item"
+				item: "refinedstorage:security_manager"
+			}]
+			rewards: [{
+				id: "30B0DFF459DFFAD3"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["Right-click the Wireless Grid on a Controller to bind it to the network."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "6FDC124CE7677972"
+			tasks: [{
+				id: "7F33002CA1C4C5AB"
+				type: "item"
+				item: "refinedstorage:wireless_grid"
+			}]
+			rewards: [{
+				id: "245805D4D1274C6E"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["Right-click the Wireless Grid on a Controller to bind it to the network."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "054236166F48FE26"
+			tasks: [{
+				id: "32BD2142DA7DD94A"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+			rewards: [{
+				id: "1E93B4C5FD96F2D0"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["Crafters craft items using the Patterns they are given."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "596483544A8BB781"
+			tasks: [{
+				id: "1107439F43FDA409"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			rewards: [{
+				id: "13535961D2B9B60E"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: ["Grid used to make patterns for auto crafting"]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "65C647CFDC68A12D"
+			tasks: [{
+				id: "680AAE12473FF818"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+			rewards: [{
+				id: "6D77035FDFF445F6"
+				type: "random"
+				table_id: 6762063051178115619L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			description: ["Used to make Printed Logic Circuits"]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "2A2A07C9E98D32FC"
+			tasks: [{
+				id: "71A111535080CA51"
+				type: "item"
+				item: "appliedenergistics2:logic_processor_press"
+			}]
+			rewards: [{
+				id: "148FCBB6B1CE8C10"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			description: ["Used to make Printed Silicon"]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "7E95D8F4A6E9E245"
+			tasks: [{
+				id: "51F6A447F49207FD"
+				type: "item"
+				item: "appliedenergistics2:silicon_press"
+			}]
+			rewards: [{
+				id: "16323514A3F51035"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			description: ["Throw AE2 Seeds into Water to let them grow. Surround the Water with Crystal Growth Accelerators and provide them with power to speed up their growth."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "2238848A1C0E116D"
+			tasks: [{
+				id: "3ADBB8EFECF58501"
+				type: "item"
+				item: "appliedenergistics2:quartz_growth_accelerator"
+			}]
+			rewards: [{
+				id: "21700214A29BED3F"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			description: ["An ME Drive stores up to 10 Storage Cells"]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "03B5482C2465AC91"
+			tasks: [{
+				id: "037F07683D722909"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+			rewards: [{
+				id: "426091E1EF380CBC"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			description: [
+				"Lowest Tier Storage Cell, which can contain 1,024 bytes of storage with a maximum of 63 unique items."
+				"A stack of 64 items takes up 8 bytes."
+			]
+			dependencies: ["03B5482C2465AC91"]
+			id: "5CFB791D0C714412"
+			tasks: [{
+				id: "63605EC8644F52C6"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5BD77F5316E506E9"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			description: ["Used to make Printed Engineering Circuits"]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "76281FDCA8318BED"
+			tasks: [{
+				id: "67F1F12FA9AC2A53"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor_press"
+			}]
+			rewards: [{
+				id: "5A082F554CA3E614"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			description: ["Used to make Printed Calculation Circuits"]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "41C349D9375687F9"
+			tasks: [{
+				id: "64BBDCFA398FAB54"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor_press"
+			}]
+			rewards: [{
+				id: "25591F1D2AD0C660"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			description: ["Lower Tier Storage Cell, which can contain 4,096 bytes of storage with a maximum of 63 unique items."]
+			dependencies: ["5CFB791D0C714412"]
+			id: "760D96D0E4C2B0CC"
+			tasks: [{
+				id: "297828608293BF2C"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2626C181EB668C51"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			description: ["Middle Tier Storage Cell, which can contain 16,384 bytes of storage with a maximum of 63 unique items."]
+			dependencies: ["760D96D0E4C2B0CC"]
+			id: "196460D5227839AE"
+			tasks: [{
+				id: "4D417DB92F986F81"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "064C98EB3B9E9B96"
+				type: "random"
+				table_id: 6762063051178115619L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			description: ["Highest Tier Storage Cell, which can contain 65,536 bytes of storage with a maximum of 63 unique items."]
+			dependencies: ["196460D5227839AE"]
+			id: "1887FE8DB3129486"
+			tasks: [{
+				id: "4FFAC16259638F74"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "722B97425EA8BE63"
+				type: "random"
+				table_id: 526035488461340715L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			description: ["Highest Tier Storage Cell, which can contain 65,536 bytes of storage."]
+			dependencies: ["13D2F7B9354E02AE"]
+			id: "2E307F8EA51B6004"
+			tasks: [{
+				id: "6239720BABF20001"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6B16977F42E08754"
+				type: "random"
+				table_id: 6762063051178115619L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			description: ["Middle Tier Storage Cell, which can contain 16,384 bytes of storage."]
+			dependencies: ["678E80DCE18A0316"]
+			id: "13D2F7B9354E02AE"
+			tasks: [{
+				id: "419E3DF58DB86E05"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "05A25F029C052220"
+				type: "random"
+				table_id: 3320101480251117645L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			description: ["Lower Tier Storage Cell, which can contain 4,096 bytes of storage."]
+			dependencies: ["45C9F671FC61A8BE"]
+			id: "678E80DCE18A0316"
+			tasks: [{
+				id: "728CFB129A01F5A2"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "35C0E7889BC4C608"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			description: ["Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."]
+			dependencies: ["03B5482C2465AC91"]
+			id: "45C9F671FC61A8BE"
+			tasks: [{
+				id: "247BD2799214C8B4"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0438EF5A96FED10E"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "4A351F1609658E7E"
+			tasks: [{
+				id: "3953AB573B3B690A"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+			rewards: [{
+				id: "3F8A75CC2AC58A73"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "5E4C034821C1A854"
+			tasks: [{
+				id: "11C66D704D9AF193"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "564F0B26E11CEA67"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.5d
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "73AEE741C9CF567A"
+			tasks: [{
+				id: "5AC11EDE1F540EEF"
+				type: "item"
+				item: "appliedenergistics2:interface_terminal"
+			}]
+			rewards: [{
+				id: "01BFE1E695796A2B"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.5d
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "7DD31749EBC72E29"
+			tasks: [{
+				id: "6B8F31AE6FB2AD75"
+				type: "item"
+				item: "appliedenergistics2:fluid_terminal"
+			}]
+			rewards: [{
+				id: "194BF77776DA323D"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			description: ["After being linked up in the ME Security Terminal, the Wireless Terminal grants portable access to the ME Network."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "426FEE2583E5B42A"
+			tasks: [{
+				id: "382650CE3005D94F"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:wireless_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "73DD65DCE4BC4273"
+				type: "random"
+				table_id: 526035488461340715L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.5d
+			description: [
+				"Allows you to configure which users, and what permissions the users have with the ME System. While connected, it enforces permissions on the usage of the system."
+				"The security system does not prevent destructive tampering, removing cables / machines or breaking of drives."
+				"Other than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly."
+			]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "5E8B9FD8600AA7EC"
+			tasks: [{
+				id: "421CA628C485886E"
+				type: "item"
+				item: "appliedenergistics2:security_station"
+			}]
+			rewards: [{
+				id: "634D197A6F4B03B6"
+				type: "random"
+				table_id: 6762063051178115619L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.5d
+			description: ["The ME Controller is the routing hub of an ME network. Each face of the ME Controller multiblock will allow the network to use up to 32 more channels."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "4085F213A9659009"
+			tasks: [{
+				id: "080E97CC699431BF"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+			rewards: [{
+				id: "06C903D09DF1A135"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.5d
+			description: [
+				"You can connect it directly to the system and insert an Encoded Pattern into it and it will craft that item. "
+				"You can also connect up to 6 to an ME Interface and put the Encoded Patterns into the Interface and it will use the Molecular Assemblers to craft the items."
+			]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "3CCC9DA58BAFDDC7"
+			tasks: [{
+				id: "7D0E94F1184BF6DF"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+			}]
+			rewards: [{
+				id: "7F5153731882DF36"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -3.5d
+			dependencies: ["3CCC9DA58BAFDDC7"]
+			id: "306EA4A01F3B0FD8"
+			tasks: [{
+				id: "141101B370B8E28B"
+				type: "item"
+				item: "appliedenergistics2:pattern_terminal"
+			}]
+			rewards: [{
+				id: "14422E365BAAB660"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.5d
+			description: [
+				"Component of the Crafting CPU which provides additional item delivery from the CPU to the ME Interface for crafting."
+				"This can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. "
+			]
+			dependencies: ["4EE993CB97253717"]
+			id: "4E171C8D92A42C99"
+			tasks: [{
+				id: "1E2196F5B10CC62A"
+				type: "item"
+				item: "appliedenergistics2:crafting_accelerator"
+			}]
+			rewards: [{
+				id: "7011F8CB93A27A4B"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.5d
+			description: [
+				"All components of the Crafting CPU are crafted with the Crafting Unit."
+				"The Crafting CPU multiblock must have exactly 6 sides for it to function."
+			]
+			dependencies: ["3CCC9DA58BAFDDC7"]
+			id: "4EE993CB97253717"
+			tasks: [{
+				id: "4A50E582638DDDC7"
+				type: "item"
+				item: "appliedenergistics2:crafting_unit"
+			}]
+			rewards: [{
+				id: "1744E71877D25410"
+				type: "random"
+				table_id: 388750098057401036L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.5d
+			description: ["The Crafting Monitor will show what is being crafted by the Crafting CPU that it is a part of."]
+			dependencies: ["4EE993CB97253717"]
+			id: "7544B3E48B976D0B"
+			tasks: [{
+				id: "345D7B1EE465E473"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+			rewards: [{
+				id: "7A7E092C540D9358"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.5d
+			description: ["Component of the Crafting CPU which provides 1024 bytes of storage for crafting"]
+			dependencies: ["4EE993CB97253717"]
+			id: "18F919670E7563B5"
+			tasks: [{
+				id: "239620A4636CBC5E"
+				type: "item"
+				item: "appliedenergistics2:1k_crafting_storage"
+			}]
+			rewards: [{
+				id: "17DBAA44802B34FB"
+				type: "random"
+				table_id: 6751199623490346622L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.5d
+			description: ["Component of the Crafting CPU which provides 4,096 bytes of storage for crafting"]
+			dependencies: ["18F919670E7563B5"]
+			id: "7BD03F3E542A3F80"
+			tasks: [{
+				id: "5A1F9E5B8F8359FD"
+				type: "item"
+				item: "appliedenergistics2:4k_crafting_storage"
+			}]
+			rewards: [{
+				id: "5A7B5A345785D3CB"
+				type: "random"
+				table_id: 5875965124553221659L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 4.5d
+			description: ["Component of the Crafting CPU which provides 16,384 bytes of storage for crafting"]
+			dependencies: ["7BD03F3E542A3F80"]
+			id: "647C7C5B9E9342ED"
+			tasks: [{
+				id: "573A2DA23B69D6ED"
+				type: "item"
+				item: "appliedenergistics2:16k_crafting_storage"
+			}]
+			rewards: [{
+				id: "6486EBED8FDDE877"
+				type: "random"
+				table_id: 3320101480251117645L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 6.5d
+			description: ["Component of the Crafting CPU which provides 65,536 bytes of storage for crafting"]
+			dependencies: ["647C7C5B9E9342ED"]
+			id: "6F02ED0C67C802A4"
+			tasks: [{
+				id: "0EC9C52F7E1165F9"
+				type: "item"
+				item: "appliedenergistics2:64k_crafting_storage"
+			}]
+			rewards: [{
+				id: "4ECDB1672BDBBBAF"
+				type: "random"
+				table_id: 6762063051178115619L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: ["For instance, you can set it to keep 2 stacks of Torches in the network, and any time you have less than 2 stacks of Torches it will autocraft them."]
+			dependencies: ["488BD9DB903FAA5B"]
+			id: "2963A99D97F3F43E"
+			tasks: [{
+				id: "63E5FDA927A70224"
+				type: "item"
+				item: "rsrequestify:requester"
+			}]
+			rewards: [{
+				id: "639CE0684FDCACD1"
+				type: "random"
+				table_id: 3320101480251117645L
+			}]
+		}
+	]
+}

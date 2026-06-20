@@ -1,0 +1,188 @@
+{
+	id: "5DB11449C5E49E7E"
+	order_index: 4
+	title: "mid-b"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "miniutilities:experience_pearl_8x" }
+		{ item: "enderstorage:ender_tank", weight: 4 }
+		{
+			item: {
+				id: "buildinggadgets:gadget_exchanging"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+			weight: 3
+		}
+		{ item: "miniutilities:cursed_earth", count: 16, weight: 3 }
+		{ item: "mob_grinding_utils:absorption_hopper", weight: 3 }
+		{
+			item: {
+				id: "simplyjetpacks:jetpack_mek1"
+				Count: 1b
+				tag: {
+					ParticleType: 1
+				}
+			}
+			weight: 4
+		}
+		{ item: "notenoughwands:building_wand", weight: 4 }
+		{ item: "rftoolspower:dimensionalcell", weight: 4 }
+		{ item: "mysticalagriculture:prudentium_growth_accelerator", weight: 5 }
+		{ item: "mysticalagradditions:prudentium_apple", count: 32 }
+		{ item: "immersiveengineering:cloche", count: 4, weight: 2 }
+		{ item: "refinedstorageaddons:wireless_crafting_grid" }
+		{ item: "extrastorage:block_256k" }
+		{
+			item: {
+				id: "betterendforge:aeternium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:mycelial_ender" }
+		{ item: "industrialforegoing:mob_duplicator", weight: 2 }
+		{ item: "rid:gold_cluster", count: 46, weight: 2 }
+		{ item: "rid:cobalt_cluster", count: 16 }
+		{ item: "industrialforegoing:material_stonework_factory", weight: 3 }
+		{
+			item: {
+				id: "tconstruct:hammer_head"
+				Count: 1b
+				tag: {
+					Material: "mysticalagradditions:imperium"
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "tconstruct:excavator"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.2f
+						"tconstruct:durability": 3.75f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.0f
+						"tconstruct:mining_speed": 2.5875f
+						"tconstruct:attack_damage": 3.9f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 2403.75f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:knockback"
+							level: 2s
+						}
+						{
+							name: "tconstruct:temperate"
+							level: 4s
+						}
+						{
+							name: "tconstruct:shovel_transform_hidden"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:constantan"
+						"tconstruct:constantan"
+						"tconstruct:constantan"
+						"tconstruct:constantan"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "botania:manasteel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "botania:magnet_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 4
+		}
+		{ item: "obsidianboat:obsidianboat", weight: 5 }
+		{ item: "rftoolsstorage:storage_module1", weight: 3 }
+		{ item: "refinedstorage:construction_core", count: 4, weight: 3 }
+		{ item: "fluxnetworks:basic_flux_storage", count: 2, weight: 4 }
+		{ item: "fluxnetworks:flux_point", count: 4, weight: 4 }
+		{
+			item: {
+				id: "industrialforegoing:range_addon1"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 1.0f
+					}
+				}
+			}
+			weight: 3
+		}
+		{ item: "industrialforegoing:laser_lens7", weight: 5 }
+		{ item: "industrialforegoing:laser_lens9", weight: 5 }
+		{ item: "industrialforegoing:mob_imprisonment_tool", weight: 5 }
+		{ item: "industrialforegoing:conveyor_insertion_upgrade", count: 64 }
+		{ item: "immersiveengineering:shader_bag_uncommon", weight: 5 }
+		{ item: "thermal:potion_duration_augment", weight: 3 }
+		{ item: "thermal:item_filter_augment", weight: 4 }
+		{ item: "powah:energy_hopper_basic", weight: 3 }
+		{ item: "bloodmagic:apprenticebloodorb", weight: 2 }
+		{ item: "bloodmagic:watersigil", weight: 2 }
+		{ item: "mysticalagriculture:slime_seeds" }
+		{ item: "mysticalagriculture:turtle_seeds" }
+		{ item: "mysticalagriculture:rubber_seeds" }
+		{ item: "mysticalagriculture:silicon_seeds" }
+		{ item: "mysticalagriculture:sulfur_seeds" }
+		{ item: "mysticalagriculture:aluminum_seeds" }
+		{ item: "mysticalagriculture:copper_seeds" }
+		{ item: "mysticalagriculture:saltpeter_seeds" }
+		{ item: "mysticalagriculture:apatite_seeds" }
+	]
+}

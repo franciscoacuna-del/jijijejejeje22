@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/enderium"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "thermal:enderium_plate"
+    }
+}

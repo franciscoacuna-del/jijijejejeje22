@@ -1,0 +1,7 @@
+{
+    "name": "Electro Silicon",
+    "colors": ["052B5B", "073C7D"],
+    "ingredient": {
+        "item": "projectred-core:electrotine_silicon"
+    }
+}

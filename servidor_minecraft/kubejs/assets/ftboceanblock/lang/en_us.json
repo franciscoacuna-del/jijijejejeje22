@@ -1,0 +1,16 @@
+{
+    "iemetalpress.task": "Look at a completed Metal Press\n\n1x Piston\n2x Steel Scaffolding\n1x Redstone Engineering Block\n1x Heavy Engineering Block\n2x Conveyor Belt",
+    "ieassembler.task": "Look at a completed Assembler\n\n6x Steel Scaffolding\n2x Redstone Engineering Block\n2x Light Engineering Block\n9x Iron Sheetmetal\n6x Iron Sheetmetal Slab\n2x Conveyor Belt",
+    "ieindussqueeze.task": "Look at a completed Squeezer\n\n1x Piston\n6x Steel Scaffolding\n2x Light Engineering Block\n1x Redstone Engineering Block\n3x Steel Fence\n2x Fluid Pipe\n4x Wooden Barrel",
+    "iearcfurnace.task": "Look at a completed Arc Furnace\n\n08x Steel Sheetmetal\n06x Block of Steel\n14x Steel Sheetmetal Slab\n05x Steel Scaffolding\n05x Heavy Engineering Block\n01x Cauldron\n10x Light Engineering Block\n27x Reinforced Blast Brick",
+    "iesilo.task": "Look at a completed Silo\n\n04x Treated Wood Fence\n50x Iron Sheetmetal",
+    "iecrusher.task": "Look at a completed Crusher\n\n10x Steel Scaffolding\n10x Light Engineering Block\n01x Redstone Engineering Block\n08x Steel Fence\n09x Hopper",
+    "ieindusferment.task": "Look at a completed Industrial Fermenter\n\n6x Steel Scaffolding\n2x Light Engineering Block\n4x Cauldron\n1x Redstone Engineering Block\n4x Iron Sheetmetal\n2x Fluid Pipe",
+    "iemixer.task": "Look at a completed Mixer\n\n5x Steel Scaffolding\n4x Light Engineering Block\n4x Iron Sheetmetal\n1x Redstone Engineering Block\n1x Steel Fence\n3x Fluid Pipe",
+    "iebottlingmachine.task": "Look at a completed Bottling Machine\n\n2x Iron Sheetmetal\n3x Steel Scaffolding\n1x Redstone Engineering Block\n2x Light Engineering Block,\n3x Conveyor Belt\nFluid Pump",
+    "ietank.task": "Look at a completed Fluid Tank\n\n04x Treated Wood Fence\n34x Iron Sheetmetal",
+    "ieautoworkbench.task": "Look at a completed Automated Engineer's Workbench\n\n5x Steel Scaffolding\n4x Light Engineering Block\n1x Redstone Engineering Block\n2x Heavy Engineering Block\n2x Treated Wood Slab\n4x Conveyor Belt",
+    "ierefinery.task": "Look at a completed Refinery\n\n08x Steel Scaffolding\n02x Light Engineering Block\n02x Heavy Engineering Block\n16x Iron Sheetmetal\n01x Redstone Engineering Block\n05x Fluid Pipe",
+    "ftbultimine.info.not_active": "Inactive. (See Basic Resources/Lost Trinkets quest)",
+    "info.ftbultimine.ultiminer": "Enables you to use FTB Ultiminer when active"
+}

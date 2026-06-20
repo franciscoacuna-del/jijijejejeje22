@@ -1,0 +1,1202 @@
+[01:29:06] [main/INFO] [STDOUT/]: Update in check...
+[01:29:06] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[01:29:06] [main/INFO] [STDOUT/]: [!] Can't connect to the ci to check updates or unable to download the update.
+[01:29:06] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 8c7caaf7, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
+[01:29:06] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 11.0.31 by Ubuntu
+[01:29:14] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[01:29:14] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/jijijejejeje22/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[01:29:16] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:0 token recognition error at: '`'
+[01:29:18] [main/ERROR] [mixin/]: Mixin config minetogether.mixins.json does not specify "minVersion" property
+[01:29:18] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[01:29:18] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.leobeliik.extremesoundmuffler.MixinConnector]
+[01:29:18] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[01:29:18] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[01:29:18] [main/WARN] [mixin/]: Reference map 'miniutilities.refmap.json' for miniutilities.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:29:18] [main/WARN] [mixin/]: Reference map 'lemonlib.refmap.json' for lemonlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:29:18] [main/WARN] [mixin/]: Reference map 'rhino-forge-refmap.json' for rhino.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:29:18] [main/INFO] [RoadRunner Early Loading/]: Loaded rule configuration file for RoadRunner: 81 options available, 2 override(s) found
+[01:29:19] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/overlay/PlayerTabOverlayGui (java.lang.ClassNotFoundException: null)
+[01:29:19] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.overlay.PlayerTabOverlayGui was not found wyml.mixins.json:MixinPlayerTabOverlay
+[01:29:19] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidOnEyes net.minecraft.entity.Entity
+[01:29:19] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: getMaxAirSupply net.minecraft.entity.Entity
+[01:29:19] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidHeightAndDoFluidPushing net.minecraft.entity.Entity
+[01:29:19] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: canBreatheUnderwater net.minecraft.entity.LivingEntity
+[01:29:19] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: decreaseAirSupply net.minecraft.entity.LivingEntity
+[01:29:19] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: increaseAirSupply net.minecraft.entity.LivingEntity
+[01:29:19] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[01:29:19] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: travel net.minecraft.entity.LivingEntity
+[01:29:20] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[01:29:21] [main/WARN] [mixin/]: Error loading class: net/mrscauthd/boss_tools/events/OxygenSystem (java.lang.ClassNotFoundException: null)
+[01:29:21] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/WorldRenderer for invalid dist DEDICATED_SERVER
+[01:29:21] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/WorldRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/WorldRenderer for invalid dist DEDICATED_SERVER)
+[01:29:21] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.WorldRenderer was not found mixins.better_diving.json:MixinWorldRenderer
+[01:29:21] [main/WARN] [RoadRunner Early Loading/]: Force-disabling mixin 'ai.nearby_entity_tracking.LivingEntityMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[01:29:21] [main/WARN] [RoadRunner Early Loading/]: Force-disabling mixin 'ai.nearby_entity_tracking.ServerWorldMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[01:29:21] [main/WARN] [RoadRunner Early Loading/]: Force-disabling mixin 'ai.nearby_entity_tracking.WorldChunkMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[01:29:21] [main/WARN] [RoadRunner Early Loading/]: Force-disabling mixin 'ai.nearby_entity_tracking.WorldMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[01:29:21] [main/WARN] [RoadRunner Early Loading/]: Force-disabling mixin 'ai.nearby_entity_tracking.goals.FleeEntityGoalMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[01:29:21] [main/WARN] [RoadRunner Early Loading/]: Force-disabling mixin 'ai.nearby_entity_tracking.goals.LookAtGoalMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[01:29:21] [main/WARN] [RoadRunner Early Loading/]: Force-disabling mixin 'alloc.chunk_ticking.ChunkTicketManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by user configuration) disables it and children
+[01:29:21] [main/WARN] [RoadRunner Early Loading/]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by user configuration) disables it and children
+[01:29:21] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[01:29:22] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[01:29:22] [main/WARN] [mixin/]: Error loading class: org/lwjgl/system/CallbackI$S (java.lang.ClassNotFoundException: null)
+[01:29:23] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidOnEyes net.minecraft.entity.Entity
+[01:29:23] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: getMaxAirSupply net.minecraft.entity.Entity
+[01:29:23] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: updateFluidHeightAndDoFluidPushing net.minecraft.entity.Entity
+[01:29:24] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: canBreatheUnderwater net.minecraft.entity.LivingEntity
+[01:29:24] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: decreaseAirSupply net.minecraft.entity.LivingEntity
+[01:29:24] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: increaseAirSupply net.minecraft.entity.LivingEntity
+[01:29:24] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[01:29:24] [main/INFO] [net.minecraftforge.coremod.CoreMod.better_diving/COREMODLOG]: Transforming method: travel net.minecraft.entity.LivingEntity
+[01:29:24] [main/INFO] [com.unrealdinnerbone.delogger.LoggerHacks/]: !!! SOME LOGGERS HAVE MOVED TO THE DEBUG FILE (Please Include them in your bug reports) !!!
+[01:29:26] [main/INFO] [FerriteCore - class definer/]: Using Java 9+ class definer
+[01:29:26] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[01:29:28] [pool-4-thread-1/INFO] [net.creeperhost.wyml.WhyYouMakeLag/]: Config at /workspaces/jijijejejeje22/servidor_minecraft/config/wyml.json has changed, reloaded!
+[01:29:29] [main/INFO] [FTB Janitor/]: Lazy DFU Loaded
+[01:29:34] [main/INFO] [PluginManager/]: Scanning classes for titanium
+[01:29:34] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class IndustrialForegoingResourcePlugin for plugin resources
+[01:29:34] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class DefaultResourceRegistryPlugin for plugin resources
+[01:29:34] [modloading-worker-2/WARN] [ReAuth/]: ###############################
+[01:29:34] [modloading-worker-2/WARN] [ReAuth/]: # ReAuth was loaded on Server #
+[01:29:34] [modloading-worker-2/WARN] [ReAuth/]: #     Consider removing it    #
+[01:29:34] [modloading-worker-2/WARN] [ReAuth/]: ###############################
+[01:29:34] [modloading-worker-3/INFO] [ToolKit/]: Loading mod
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Scanning classes for industrialforegoing
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Found FeaturePluginInstance for class FarmersDelightPlugin for plugin farmersdelight
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Found FeaturePluginInstance for class ImmersiveEngineeringPlugin for plugin immersiveengineering
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Found FeaturePluginInstance for class FTBChunksPlugin for plugin ftbchunks
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Constructed class FarmersDelightPlugin for plugin farmersdelight for mod industrialforegoing
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Constructed class ImmersiveEngineeringPlugin for plugin immersiveengineering for mod industrialforegoing
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Constructed class FTBChunksPlugin for plugin ftbchunks for mod industrialforegoing
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class FarmersDelightPlugin
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class ImmersiveEngineeringPlugin
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class FTBChunksPlugin
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class FarmersDelightPlugin
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class ImmersiveEngineeringPlugin
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class FTBChunksPlugin
+[01:29:34] [modloading-worker-3/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[01:29:35] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 2 RS API injection points
+[01:29:35] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in org.cyclops.integrateddynamicscompat.modcompat.refinedstorage.aspect.RefinedStorageAspects RS
+[01:29:35] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[01:29:35] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[01:29:35] [modloading-worker-2/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[01:29:35] [modloading-worker-3/INFO] [PluginManager/]: Executing phase INIT for plugin class FarmersDelightPlugin
+[01:29:35] [modloading-worker-3/INFO] [PluginManager/]: Executing phase INIT for plugin class ImmersiveEngineeringPlugin
+[01:29:35] [modloading-worker-3/INFO] [PluginManager/]: Executing phase INIT for plugin class FTBChunksPlugin
+[01:29:35] [modloading-worker-3/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
+[01:29:36] [modloading-worker-3/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class FarmersDelightPlugin
+[01:29:36] [modloading-worker-3/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class ImmersiveEngineeringPlugin
+[01:29:36] [modloading-worker-3/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class FTBChunksPlugin
+[01:29:36] [modloading-worker-3/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
+[01:29:36] [modloading-worker-3/WARN] [Simple Discord Rich Presence/]: This is a client only mod!
+[01:29:37] [modloading-worker-2/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[01:29:38] [modloading-worker-1/ERROR] [me.ichun.mods.ding.common.Ding/]: You are loading Ding on a server. Ding is a client only mod!
+[01:29:38] [modloading-worker-0/INFO] [dev.ftb.mods.ftbstructures.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01:29:39] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[01:29:39] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[01:29:39] [modloading-worker-1/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[01:29:39] [Hats Hat Reader Thread/INFO] [me.ichun.mods.hats.common.Hats/]: Loaded 488 files. 213 hats, 275 accessories.
+[01:29:40] [modloading-worker-1/INFO] [chocolate/]: Vanilla is real good, but chocolate is better, let's be honest. :)
+[01:29:40] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Registering all blocks and items from BlockCarpentry
+[01:29:40] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering blocks from BlockCarpentry
+[01:29:40] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering items from BlockCarpentry
+[01:29:40] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering tiles from BlockCarpentry
+[01:29:40] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering containers from BlockCarpentry
+[01:29:40] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering points of interest from Blockcarpentry
+[01:29:40] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Registered all blocks and items from BlockCarpentry
+[01:29:41] [modloading-worker-3/ERROR] [toastcontrol/]: Running on a dedicated server, disabling mod.
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found kubejs plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found kubejs_tinkers plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found ftbjarmod plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found kubejs_thermal plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found recycler plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found kubejs_immersive_engineering plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found ftbstructures plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found kubejs_mekanism plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found kubejs_blood_magic plugin
+[01:29:41] [modloading-worker-1/INFO] [KubeJS/]: Found ftbchunks plugin
+[01:29:42] [modloading-worker-1/INFO] [KubeJS/]: Found ftbsluice plugin
+[01:29:42] [modloading-worker-1/INFO] [KubeJS/]: Done in 0 s
+[01:29:42] [modloading-worker-1/INFO] [KubeJS/]: Loaded common.properties
+[01:29:42] [modloading-worker-2/INFO] [brandonscore/]: Knock Knock...
+[01:29:42] [modloading-worker-2/WARN] [draconicevolution/]: Reactor detonation initiated.
+[01:29:42] [modloading-worker-2/INFO] [brandonscore/]: Wait... NO! What?
+[01:29:42] [modloading-worker-2/INFO] [brandonscore/]: Stop That! That's not how this works!
+[01:29:42] [modloading-worker-2/WARN] [draconicevolution/]: Calculating explosion ETA
+[01:29:42] [modloading-worker-2/INFO] [brandonscore/]: Ahh... NO... NONONO! DONT DO THAT!!! STOP THIS NOW!
+[01:29:42] [modloading-worker-2/WARN] [draconicevolution/]: **Explosion Imminent!!!**
+[01:29:42] [modloading-worker-2/INFO] [brandonscore/]: Well...... fork...
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:t_corridor
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@33f1bf78
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:four_way_corridor_loot
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@360d4cb6
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:four_way_corridor
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@742d5c32
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:standard/ore_hold_1
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@4a4cd070
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:standard/mine_entrance
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@e8188da
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:straight_corridor
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@da92ae
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:spiral_staircase
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@357127f4
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:t3_entrance
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@63eef405
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:standard_entrance
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@45918d51
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/library
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@4fd4b7e7
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/armoury
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@127488c
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/farm
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@3ba4d546
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/portal_nether
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@379292b9
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/crypt
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@7d16ae5
+[01:29:42] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:223]: # schematics: 14
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:global.js in 0.395 s
+[01:29:43] [modloading-worker-3/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:forgevent.js in 0.051 s
+[01:29:43] [modloading-worker-3/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalcustomization.lib.ModCorePlugin
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:worldgen.js in 0.043 s
+[01:29:43] [modloading-worker-3/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:registry/item_registry.js in 0.007 s
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:registry/block_registry.js in 0.018 s
+[01:29:43] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for titanium
+[01:29:43] [modloading-worker-0/INFO] [PluginManager/]: Constructed class IndustrialForegoingResourcePlugin for plugin resources for mod titanium
+[01:29:43] [modloading-worker-0/INFO] [PluginManager/]: Constructed class DefaultResourceRegistryPlugin for plugin resources for mod titanium
+[01:29:43] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class IndustrialForegoingResourcePlugin
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:tools.js in 0.096 s
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:registry/fluid_registry.js in 0.001 s
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:wrench_blacklist.js in 0.003 s
+[01:29:43] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class DefaultResourceRegistryPlugin
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded script startup_scripts:ftbstructures.js in 0.01 s
+[01:29:43] [modloading-worker-1/INFO] [KubeJS Startup/]: Loaded 9/9 KubeJS startup scripts in 1.203 s
+[01:29:43] [modloading-worker-0/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Forge
+[01:29:44] [modloading-worker-3/INFO] [seeddrop/]: Creating Seed Drop config directory
+[01:29:44] [modloading-worker-3/INFO] [seeddrop/]: Reading Seed Drop config JSON file
+[01:29:44] [modloading-worker-1/INFO] [team.chisel.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01:29:44] [modloading-worker-3/ERROR] [me.ichun.mods.backtools.common.BackTools/]: You are loading Back Tools on a server. Back Tools is a client only mod!
+[01:29:44] [modloading-worker-0/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Vanilla
+[01:29:44] [modloading-worker-0/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Storage Drawers
+[01:29:44] [modloading-worker-0/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Industrialforegoing
+[01:29:44] [modloading-worker-0/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Thermal_expansion
+[01:29:44] [modloading-worker-3/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: PacketFixer has been initialized successfully.
+[01:29:44] [modloading-worker-0/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Bloodmagic
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:47] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:48] [main/INFO] [Botany Pots/]: Registered 34 Block entries in 1ms.
+[01:29:48] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:48] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:48] [main/INFO] [com.haoict.tiab.Tiab/]: HELLO from Register Block
+[01:29:49] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:49] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleManager for invalid dist DEDICATED_SERVER
+[01:29:50] [main/INFO] [Botany Pots/]: Registered 34 Item entries in 0.95ms.
+[01:29:51] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 178 ms
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/melee_damage.json, path: /data/bloodmagic/anointment/melee_damage.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/holy_water.json, path: /data/bloodmagic/anointment/holy_water.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/hidden_knowledge.json, path: /data/bloodmagic/anointment/hidden_knowledge.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/quick_draw.json, path: /data/bloodmagic/anointment/quick_draw.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_power.json, path: /data/bloodmagic/anointment/bow_power.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_velocity.json, path: /data/bloodmagic/anointment/bow_velocity.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/arrow_protect.json, path: /data/bloodmagic/living_armor/arrow_protect.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fall_protect.json, path: /data/bloodmagic/living_armor/fall_protect.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/physical_protect.json, path: /data/bloodmagic/living_armor/physical_protect.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/jump.json, path: /data/bloodmagic/living_armor/jump.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/health.json, path: /data/bloodmagic/living_armor/health.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/experienced.json, path: /data/bloodmagic/living_armor/experienced.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/sprint_attack.json, path: /data/bloodmagic/living_armor/sprint_attack.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/self_sacrifice.json, path: /data/bloodmagic/living_armor/self_sacrifice.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/speed.json, path: /data/bloodmagic/living_armor/speed.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/poison_resist.json, path: /data/bloodmagic/living_armor/poison_resist.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fire_resist.json, path: /data/bloodmagic/living_armor/fire_resist.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/digging.json, path: /data/bloodmagic/living_armor/digging.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/knockback_resist.json, path: /data/bloodmagic/living_armor/knockback_resist.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/diamond_protect.json, path: /data/bloodmagic/living_armor/diamond_protect.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/elytra.json, path: /data/bloodmagic/living_armor/elytra.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/curios_socket.json, path: /data/bloodmagic/living_armor/curios_socket.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/melee_damage.json, path: /data/bloodmagic/living_armor/melee_damage.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/repair.json, path: /data/bloodmagic/living_armor/repair.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/quenched.json, path: /data/bloodmagic/living_armor/downgrade/quenched.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/storm_trooper.json, path: /data/bloodmagic/living_armor/downgrade/storm_trooper.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/battle_hungry.json, path: /data/bloodmagic/living_armor/downgrade/battle_hungry.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/melee_decrease.json, path: /data/bloodmagic/living_armor/downgrade/melee_decrease.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/dig_slowdown.json, path: /data/bloodmagic/living_armor/downgrade/dig_slowdown.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/slow_heal.json, path: /data/bloodmagic/living_armor/downgrade/slow_heal.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/crippled_arm.json, path: /data/bloodmagic/living_armor/downgrade/crippled_arm.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/swim_decrease.json, path: /data/bloodmagic/living_armor/downgrade/swim_decrease.json
+[01:29:51] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:223]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/speed_decrease.json, path: /data/bloodmagic/living_armor/downgrade/speed_decrease.json
+[01:29:52] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.27ms.
+[01:29:53] [main/INFO] [Botany Pots/]: Registered 1 TileEntityType entries in 0.04ms.
+[01:29:53] [main/INFO] [wayoftime.bloodmagic.BloodMagic/]: Attempting to register Tile Entities
+[01:29:54] [main/INFO] [us.drullk.NBTPredicateIngredientMod/]: Successfully added NBT Predicate Ingredient Deserializer
+[01:29:54] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[01:29:54] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.13ms.
+[01:29:54] [main/INFO] [Botany Pots/]: Registered 3 IRecipeSerializer entries in 0.1ms.
+[01:29:55] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[01:29:55] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[01:29:55] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[01:29:55] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[01:29:55] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FTBChunksPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FTBChunksPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[01:29:55] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class FTBChunksPlugin
+[01:29:55] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[01:29:55] [main/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Config Loaded: simplyjetpacks-common.toml
+[01:29:55] [Thread-0/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Config Re-Loaded: simplyjetpacks-common.toml
+[01:29:55] [Thread-0/FATAL] [mcjty.theoneprobe.TheOneProbe/CORE]: theoneprobe config just got changed on the file system!
+[01:29:55] [Thread-0/FATAL] [mcjty.theoneprobe.TheOneProbe/CORE]: theoneprobe config just got changed on the file system!
+[01:29:55] [main/INFO] [losttrinkets/Config]: Loading losttrinkets/general_common.toml
+[01:29:55] [main/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[01:29:55] [main/INFO] [losttrinkets/Config]: All: 69
+[01:29:55] [main/INFO] [losttrinkets/Config]: Enabled: 69 Disabled: 0
+[01:29:55] [main/INFO] [losttrinkets/Config]: Random: 69 Non-Random: 0
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: Reloading losttrinkets/general_common.toml
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: All: 69
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: Enabled: 69 Disabled: 0
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: Random: 69 Non-Random: 0
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: Reloading losttrinkets/general_common.toml
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: All: 69
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: Enabled: 69 Disabled: 0
+[01:29:55] [Thread-0/INFO] [losttrinkets/Config]: Random: 69 Non-Random: 0
+[01:29:55] [main/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[01:29:55] [main/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[01:29:55] [Thread-0/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[01:29:55] [Thread-0/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[01:29:55] [Thread-0/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[01:29:55] [Thread-0/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[01:29:56] [modloading-worker-2/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class FarmersDelightPlugin
+[01:29:56] [modloading-worker-2/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class ImmersiveEngineeringPlugin
+[01:29:56] [modloading-worker-2/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class FTBChunksPlugin
+[01:29:56] [modloading-worker-2/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[01:29:56] [modloading-worker-1/INFO] [Better Compatability Checker (bcc)/]: Loading metadata.json
+[01:29:56] [modloading-worker-3/INFO] [integrateddynamics/]: Registered packet handler.
+[01:29:56] [modloading-worker-1/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
+[01:29:56] [modloading-worker-1/INFO] [thetadev.constructionwand.ConstructionWand/]: Botania integration added
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TTileChangeTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/INeighborTileChangePart, Side: SERVER
+[01:29:56] [modloading-worker-1/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: mrtjp/projectred/illumination/part/IllumarLampMicroblock
+[01:29:56] [modloading-worker-1/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: mrtjp/projectred/illumination/part/IllumarLampMicroblockMixinMarker, Side: COMMON
+[01:29:56] [modloading-worker-3/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Common Setup Method registered.
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TTickableTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/ITickablePart, Side: COMMON
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TSlottedTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/TSlottedPart, Side: COMMON
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TRedstoneTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/redstone/IRedstonePart, Side: COMMON
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TPartialOcclusionTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/TPartialOcclusionPart, Side: COMMON
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TCapabilityTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/ICapabilityProviderPart, Side: COMMON
+[01:29:56] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TAnimateTickTile
+[01:29:56] [modloading-worker-0/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/AnimateTickPart, Side: CLIENT
+[01:29:56] [modloading-worker-1/INFO] [Mekanism/]: Version 10.1.2 initializing...
+[01:29:56] [modloading-worker-2/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[01:29:56] [modloading-worker-1/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[01:29:56] [modloading-worker-1/INFO] [Mekanism/]: Loading complete.
+[01:29:56] [modloading-worker-1/INFO] [Mekanism/]: Mod loaded.
+[01:29:56] [modloading-worker-2/INFO] [com.darkere.serverconfigupdater.ServerConfigUpdater/]: Attempting to delete 0 files/folders defined in config
+[01:29:56] [modloading-worker-1/INFO] [Bookshelf/]: Registering 3 command argument types.
+[01:29:56] [modloading-worker-1/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[01:29:56] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[01:29:56] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for losttrinkets:dark_vex, use EntityAttributeCreationEvent instead.
+[01:29:56] [modloading-worker-1/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[01:29:56] [modloading-worker-2/INFO] [com.haoict.tiab.Tiab/]: HELLO FROM PREINIT
+[01:29:56] [modloading-worker-2/INFO] [com.haoict.tiab.Tiab/]: DIRT BLOCK >> minecraft:dirt
+[01:29:56] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Setting up BlockCarpentry mod
+[01:29:56] [modloading-worker-1/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[01:29:56] [modloading-worker-3/INFO] [AE2:C/]: Post Initialization ( started )
+[01:29:56] [modloading-worker-1/INFO] [mcjtylib/]: RFTools Storage Detected XNet: enabling support
+[01:29:56] [modloading-worker-3/INFO] [AE2:C/]: Post Initialization ( ended after 65ms )
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 iron_chunk = 1 iron_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 gold_chunk = 1 gold_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 diamond_chunk = 1 diamond_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 lapis_chunk = 1 lapis_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz_chunk = 1 quartz_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 redstone_chunk = 1 redstone_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 emerald_chunk = 1 emerald_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 copper_chunk = 1 copper_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 cobalt_chunk = 1 cobalt_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 lead_chunk = 1 lead_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 tin_chunk = 1 tin_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 silver_chunk = 1 silver_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nickel_chunk = 1 nickel_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 osmium_chunk = 1 osmium_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 fluorite_chunk = 1 fluorite_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 uranium_chunk = 1 uranium_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 aluminum_chunk = 1 aluminum_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 titanium_chunk = 1 titanium_cluster
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 2 uraninite_raw = 1 uraninite_raw_dense
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 2 uraninite_raw_poor = 1 uraninite_raw
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 sapphire = 1 sapphire_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 ruby = 1 ruby_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 silver_ingot = 1 silver_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 silver_nugget = 1 silver_ingot
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 copper_ingot = 1 copper_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 copper_nugget = 1 copper_ingot
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 tin_ingot = 1 tin_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 tin_nugget = 1 tin_ingot
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 lead_ingot = 1 lead_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 lead_nugget = 1 lead_ingot
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nickel_ingot = 1 nickel_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nickel_nugget = 1 nickel_ingot
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 bronze_ingot = 1 bronze_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 bronze_nugget = 1 bronze_ingot
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 electrum_ingot = 1 electrum_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 electrum_nugget = 1 electrum_ingot
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 constantan_ingot = 1 constantan_block
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 constantan_nugget = 1 constantan_ingot
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 ingot_steel = 1 storage_steel
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nugget_steel = 1 ingot_steel
+[01:29:56] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 sand = 1 1x_compressed_sand
+[01:29:57] [modloading-worker-3/INFO] [FTB Team Islands/]: Prebuilts: Searching for prebuilt islands in /config/ftbteamislands//islands.json
+[01:29:57] [modloading-worker-3/INFO] [FTB Team Islands/]: Prebuilts: found 3 islands in /config/ftbteamislands//islands.json
+[01:29:57] [modloading-worker-3/INFO] [net.creeperhost.minetogether.MineTogether/]: Scanning mods directory for MineTogether jar
+[01:29:57] [modloading-worker-3/ERROR] [net.creeperhost.minetogether.MineTogether/]: Main class found, MineTogether Jar found
+[01:29:57] [modloading-worker-3/INFO] [net.creeperhost.minetogether.MineTogether/]: Attempting to load pregenData.json
+[01:29:57] [modloading-worker-3/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Got IMC []
+[01:29:57] [modloading-worker-0/INFO] [com.haoict.tiab.Tiab/]: Hello world from the MDK
+[01:29:57] [modloading-worker-0/INFO] [com.haoict.tiab.Tiab/]: Got IMC [Hello world]
+[01:29:57] [modloading-worker-0/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Processing InterModCommunication
+[01:29:57] [modloading-worker-0/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Processed InterModCommunication
+[01:29:57] [modloading-worker-3/INFO] [mcjtylib/]: Enabled support for The One Probe
+[01:29:57] [modloading-worker-3/INFO] [mcjtylib/]: Enabled support for The One Probe
+[01:29:57] [modloading-worker-0/INFO] [net.blay09.mods.craftingtweaks.CraftingTweaks/]: refinedstorage has registered com.refinedmods.refinedstorage.container.GridContainer for CraftingTweaks
+[01:29:57] [modloading-worker-0/INFO] [powah/Config]: Added coolant fluid: minecraft:water, with coldness of: 1 per mb
+[01:29:57] [modloading-worker-0/INFO] [powah/Config]: Added block: minecraft:lava, with heat of: 1000
+[01:29:57] [modloading-worker-0/INFO] [powah/Config]: Added block: minecraft:magma_block, with heat of: 800
+[01:29:57] [modloading-worker-0/INFO] [powah/Config]: Added block: powah:blazing_crystal_block, with heat of: 2800
+[01:29:57] [modloading-worker-0/INFO] [powah/Config]: Added fluid: minecraft:lava, with heat of: 10000 per 100 mb
+[01:29:57] [modloading-worker-3/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[01:29:57] [modloading-worker-3/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[01:29:57] [modloading-worker-1/WARN] [me.ichun.mods.ichunutil.api.common.head.HeadInfo/]: Cannot find model class, removing from head info: net.minecraft.client.renderer.entity.model.TropicalFishAModel
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.model.TropicalFishAModel
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.findClass(ClassLoader.java:724)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:594)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:117)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName0(Native Method)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName(Class.java:315)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:281)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:671)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:563)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:254)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:241)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:200)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:140)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:118)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:199)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	Suppressed: java.lang.ClassNotFoundException
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:307)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:160)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:109)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		... 30 more
+[01:29:57] [modloading-worker-1/WARN] [me.ichun.mods.ichunutil.api.common.head.HeadInfo/]: Cannot find model class, removing from head info: net.minecraft.client.renderer.entity.model.TropicalFishBModel
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.model.TropicalFishBModel
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.findClass(ClassLoader.java:724)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:594)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:117)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName0(Native Method)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName(Class.java:315)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:281)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:671)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:563)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:254)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:241)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:200)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:140)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:118)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:199)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	Suppressed: java.lang.ClassNotFoundException
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:307)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:160)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:109)
+[01:29:57] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		... 30 more
+[01:29:58] [modloading-worker-1/WARN] [me.ichun.mods.ichunutil.api.common.head.HeadInfo/]: Cannot find model class, removing from head info: net.minecraft.client.renderer.entity.model.PufferFishBigModel
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.model.PufferFishBigModel
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.findClass(ClassLoader.java:724)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:594)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:117)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName0(Native Method)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName(Class.java:315)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:281)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:671)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:563)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:254)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:241)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:200)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:140)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:118)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:199)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	Suppressed: java.lang.ClassNotFoundException
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:307)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:160)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:109)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		... 30 more
+[01:29:58] [modloading-worker-1/WARN] [me.ichun.mods.ichunutil.api.common.head.HeadInfo/]: Cannot find model class, removing from head info: net.minecraft.client.renderer.entity.model.PufferFishMediumModel
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.model.PufferFishMediumModel
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.findClass(ClassLoader.java:724)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:594)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:117)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName0(Native Method)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName(Class.java:315)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:281)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:671)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:563)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:254)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:241)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:200)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:140)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:118)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:199)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	Suppressed: java.lang.ClassNotFoundException
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:307)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:160)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:109)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		... 30 more
+[01:29:58] [modloading-worker-1/WARN] [me.ichun.mods.ichunutil.api.common.head.HeadInfo/]: Cannot find model class, removing from head info: net.minecraft.client.renderer.entity.model.PufferFishSmallModel
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.model.PufferFishSmallModel
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.findClass(ClassLoader.java:724)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:594)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:117)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName0(Native Method)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.lang.Class.forName(Class.java:315)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:281)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:671)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:563)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:254)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:241)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:200)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:140)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:118)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:199)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate:checkModels:288]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 	Suppressed: java.lang.ClassNotFoundException
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:307)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:160)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:109)
+[01:29:58] [modloading-worker-1/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:639]: 		... 30 more
+[01:29:58] [modloading-worker-1/INFO] [me.ichun.mods.ichunutil.common.iChunUtil/]: Loaded 68 HeadInfo object(s)
+[01:30:02] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Unknown registry element com.brandon3055.draconicevolution.world.DEWorldGen$1@7a9e4c24
+[01:30:03] [main/INFO] [FTB Ranks/]: Loading command nodes...
+[01:30:03] [main/INFO] [FTB Ranks/]: Loaded 1994 command nodes
+[01:30:03] [main/INFO] [mod.chiselsandbits.reloading.DataReloadingResourceManager/]: Setting up data reloading resource manager.
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:resources/unify.js in 0.006 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:resources/entity.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:resources/tags.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes.replace.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.mekanism.js in 0.011 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.recycler.js in 0.003 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags.js in 0.003 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes.remove.js in 0.002 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes.smithing.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes.shapeless.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:resources/recipes.js in 0.002 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes.campfire.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes.shaped.js in 0.003 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.integrateddynamics.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.ie.js in 0.004 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:resources/cast_iron.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:resources/cobblegen.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.tinkers.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.extendedcrafting.js in 0.006 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbstructures/structures.js in 0.054 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/draconicevolution/fusioncrafting.js in 0.004 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbjarmod/recipes.js in 0.003 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbjarmod/temperaturesource.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbsluice/hammer.js in 0.002 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbsluice/sluice/crushednetherrack.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbsluice/sluice/dust.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbsluice/sluice/crushedendstone.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbsluice/sluice/sand.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbsluice/sluice/dirt.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbsluice/sluice/gravel.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/ftbsluice/sluice/crushedbasalt.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.thermal.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.emojiful.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.ftbdripper.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/recipes.botanypots.js in 0.004 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mods/industrialforegoing/laser_drill_ore.js in 0.002 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:badendstonedust.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:player/swimming.js in 0.002 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:player/end.js in 0.002 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:player/boat.js in 0.0 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:player/quest.js in 0.001 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Loaded 41/41 KubeJS server scripts in 0.138 s
+[01:30:03] [main/INFO] [KubeJS Server/]: Scripts loaded
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type kubejs:shaped
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type kubejs:shapeless
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shaped
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shapeless
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:stonecutting
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smelting
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:blasting
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smoking
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:campfire_cooking
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smithing
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type cucumber:shaped_no_mirror
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mysticalagriculture:tag
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type botanypots:crop
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type extendedcrafting:shaped_table
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type extendedcrafting:shapeless_table
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type appliedenergistics2:grinder
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type botania:runic_altar
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type integrateddynamics:squeezer
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type integrateddynamics:mechanical_squeezer
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type tconstruct:casting_table
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type tconstruct:casting_basin
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbjarmod:jar
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:furnace
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:sawmill
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pulverizer
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:smelter
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:insolator
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:centrifuge
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:press
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:crucible
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:chiller
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:refinery
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pyrolyzer
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:brewer
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:bottler
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pulverizer_catalyst
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:smelter_catalyst
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:insolator_catalyst
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:stirling_fuel
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:compression_fuel
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:magmatic_fuel
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:numismatic_fuel
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:lapidary_fuel
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:tree_extractor
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:tree_extractor_boost
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:fisher_boost
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:rock_gen
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:potion_diffuser_boost
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type recycler:recycler
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:turn_and_copy
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:alloy
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:blast_furnace
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:blast_furnace_fuel
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:coke_oven
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:cloche
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:fertilizer
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:metal_press
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:arc_furnace
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:crusher
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:sawmill
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbstructures:loot
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crushing
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:enriching
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:smelting
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:chemical_infusing
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:combining
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crystallizing
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:dissolution
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:compressing
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:purifying
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:injecting
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:energy_conversion
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:gas_conversion
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:oxidizing
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:metallurgic_infusing
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:reaction
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:sawing
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:altar
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:array
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:soulforge
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:arc
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:alchemytable
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbsluice:sluice
+[01:30:03] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbsluice:hammer
+[01:30:03] [main/INFO] [KubeJS Server/]: Scanning recipes...
+[01:30:07] [Worker-Main-2/INFO] [KubeJS Server/]: [blocks] Found 648 tags, added 13 objects, removed 1 objects
+[01:30:07] [Worker-Main-2/INFO] [KubeJS Server/]: [blocks] Found 648 tags, added 0 objects, removed 0 objects
+[01:30:07] [Worker-Main-2/INFO] [KubeJS Server/]: [items] Found 1379 tags, added 636 objects, removed 1 objects
+[01:30:07] [Worker-Main-2/INFO] [KubeJS Server/]: [items] Found 1379 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [fluids] Found 144 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [fluids] Found 144 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [entity_types] Found 27 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [entity_types] Found 27 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [tunnel_types] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [tunnel_types] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [potions] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [potions] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [enchantments] Found 1 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [enchantments] Found 1 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [gases] Found 5 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/INFO] [KubeJS Server/]: [gases] Found 5 tags, added 0 objects, removed 0 objects
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:birch_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:birch_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'wyml:jungle_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:jungle_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe wyml:jungle_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:jungle_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:spruce_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_rowboat'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:spruce_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_rowboat'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_oak_sapling[thermal:insolator]': {"item":"minecraft:orange_oak_sapling"} is not a valid ingredient!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:acacia_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_rowboat'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:acacia_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_rowboat'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'wyml:dark_oak_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:dark_oak_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe wyml:dark_oak_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:dark_oak_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:birch_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_drakkar'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:birch_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_drakkar'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:spruce_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:spruce_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:dark_oak_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:dark_oak_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'bloodmagic:meteor/create[bloodmagic:meteor]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create:andesite_alloy'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe bloodmagic:meteor/create[bloodmagic:meteor]: com.google.gson.JsonSyntaxException: Unknown item 'create:andesite_alloy'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'wyml:oak_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:oak_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe wyml:oak_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:oak_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:dark_oak_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:dark_oak_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'wyml:acacia_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:acacia_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe wyml:acacia_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:acacia_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:oak_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_dhow'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:oak_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_dhow'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'wyml:warped_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:warped_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe wyml:warped_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:warped_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:dark_oak_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_rowboat'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:dark_oak_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_rowboat'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:jungle_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:jungle_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'mysticalagriculture:essence/quark/marble[cucumber:shaped_no_mirror]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:marble'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe mysticalagriculture:essence/quark/marble[cucumber:shaped_no_mirror]: com.google.gson.JsonSyntaxException: Unknown item 'quark:marble'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'wyml:spruce_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:spruce_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe wyml:spruce_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:spruce_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:acacia_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:acacia_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:spruce_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_drakkar'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:spruce_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_drakkar'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'wyml:crimson_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:crimson_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe wyml:crimson_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:crimson_fence_gate'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:oak_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:oak_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_galley'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:jungle_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_dhow'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:jungle_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_dhow'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/betterendforge/insolator_betterendforge_jellyshroom_sapling[thermal:insolator]': {"item":"betterendforge:jellyshroom_sapling"} is not a valid ingredient!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:birch_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_rowboat'
+[01:30:08] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:birch_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_rowboat'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:birch_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:birch_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:fuels/compression/compression_creosote[thermal:compression_fuel]': {"fluid_tag":"forge:creosote","amount":1000} is not a valid ingredient!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:jungle_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:jungle_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:jungle_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_drakkar'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:jungle_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_drakkar'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:dark_oak_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_drakkar'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:dark_oak_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_drakkar'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:acacia_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_dhow'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:acacia_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_dhow'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_birch_sapling[thermal:insolator]': {"item":"minecraft:yellow_birch_sapling"} is not a valid ingredient!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:acacia_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_drakkar'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:acacia_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_drakkar'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:jungle_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_rowboat'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:jungle_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_rowboat'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:oak_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_rowboat'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:oak_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_rowboat'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:oak_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:oak_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_birch_sapling[thermal:insolator]': {"item":"minecraft:orange_birch_sapling"} is not a valid ingredient!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:dark_oak_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_dhow'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:dark_oak_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_dhow'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:acacia_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:acacia_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_oak_sapling[thermal:insolator]': {"item":"minecraft:yellow_oak_sapling"} is not a valid ingredient!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_red_oak_sapling[thermal:insolator]': {"item":"minecraft:red_oak_sapling"} is not a valid ingredient!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:oak_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_drakkar'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:oak_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_drakkar'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:spruce_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:spruce_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_galley'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:spruce_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_dhow'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:spruce_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_dhow'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'smallships:birch_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_dhow'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe smallships:birch_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_dhow'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_flowering_oak_sapling[thermal:insolator]': {"item":"minecraft:flowering_oak_sapling"} is not a valid ingredient!
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe 'wyml:birch_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:birch_fence_gate'
+[01:30:09] [Worker-Main-2/WARN] [KubeJS Server/]: Failed to parse recipe wyml:birch_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:birch_fence_gate'
+[01:30:09] [Worker-Main-2/INFO] [KubeJS Server/]: Found 15361 recipes and 0 failed recipes in 1.327 s
+[01:30:10] [Worker-Main-2/INFO] [KubeJS Server/]: Posted recipe events in 1.349 s
+[01:30:11] [Worker-Main-2/INFO] [KubeJS Server/]: Modified & removed recipes in 348.5 ms
+[01:30:11] [Worker-Main-2/INFO] [KubeJS Server/]: Added recipes in 48.80 ms
+[01:30:11] [Worker-Main-2/INFO] [KubeJS Server/]: Added 1263 recipes, removed 220 recipes, modified 1205 recipes, with 0 failed recipes and 0 fall-backed recipes
+[01:30:12] [Worker-Main-2/INFO] [placebo/]: Registered 0 additional loot tables.
+[01:30:12] [Worker-Main-2/INFO] [KubeJS Server/]: [functions] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:12] [Worker-Main-2/INFO] [KubeJS Server/]: [functions] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:13] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5,507 recipes
+[01:30:13] [Worker-Main-2/INFO] [placebo/]: Registered 0 additional recipes.
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_axe, missing knowledge for {1 diamond_axe=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_chestplate, missing knowledge for {1 diamond_chestplate=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_leggings, missing knowledge for {1 diamond_leggings=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 jetpack_vanilla3_armored, missing knowledge for {1 diamond_chestplate=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_sword, missing knowledge for {1 diamond_sword=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_hoe, missing knowledge for {1 diamond_hoe=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_shovel, missing knowledge for {1 diamond_shovel=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_pickaxe, missing knowledge for {1 diamond_pickaxe=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_helmet, missing knowledge for {1 diamond_helmet=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 inferium_boots, missing knowledge for {1 diamond_boots=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Couldn't fully analyze 1 jetpack_vanilla4_armored, missing knowledge for {1 netherite_chestplate=1.0}
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 302 milliseconds
+[01:30:13] [Worker-Main-2/INFO] [mod.chiselsandbits.reloading.DataReloadingResourceManager/]: Resetting common caches
+[01:30:13] [Worker-Main-2/INFO] [Extended Crafting/]: Loaded 30 singularity type(s) in 12 ms
+[01:30:13] [Worker-Main-2/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 0 ms
+[01:30:13] [Worker-Main-2/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 68 materials in 11.736778 ms
+[01:30:13] [Worker-Main-2/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 146 stats loaded for 73 materials in 75.03806 ms
+[01:30:13] [Worker-Main-2/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 62 traits loaded for 73 materials in 65.55794 ms
+[01:30:13] [Worker-Main-2/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 15 station slot layouts in 10.114085 ms
+[01:30:13] [Worker-Main-2/INFO] [immersiveengineering/]: Recipes for potions: minecraft:strong_harming, minecraft:strong_leaping, minecraft:healing, minecraft:slowness, minecraft:long_turtle_master, minecraft:long_regeneration, minecraft:harming, minecraft:weakness, minecraft:regeneration, minecraft:strong_regeneration, minecraft:mundane, minecraft:fire_resistance, minecraft:swiftness, minecraft:leaping, minecraft:long_leaping, minecraft:strong_turtle_master, minecraft:thick, minecraft:water_breathing, minecraft:long_weakness, minecraft:long_slow_falling, minecraft:poison, minecraft:awkward, minecraft:long_fire_resistance, minecraft:long_slowness, minecraft:strong_healing, minecraft:strong_poison, minecraft:strong_swiftness, minecraft:strength, minecraft:long_invisibility, minecraft:turtle_master, minecraft:long_water_breathing, minecraft:long_poison, minecraft:strong_slowness, minecraft:slow_falling, minecraft:long_night_vision, minecraft:long_swiftness, minecraft:long_strength, minecraft:night_vision, minecraft:invisibility, minecraft:strong_strength, minecraft:water
+[01:30:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[01:30:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01:30:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01:30:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[01:30:17] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[01:30:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:30:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01:30:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:30:17] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:30:18] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-8c7caaf7 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
+[01:30:20] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[01:30:20] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[01:30:20] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[01:30:20] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[01:30:21] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Config Loaded: simplyjetpacks-server.toml
+[01:30:21] [Thread-0/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Config Re-Loaded: simplyjetpacks-server.toml
+[01:30:21] [Thread-0/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Config Re-Loaded: simplyjetpacks-server.toml
+[01:30:21] [Server thread/INFO] [me.ichun.mods.hats.common.Hats/]: Allocated Hat Pools.
+[01:30:21] [Thread-0/INFO] [me.ichun.mods.hats.common.Hats/]: Allocated Hat Pools.
+[01:30:21] [Thread-0/INFO] [me.ichun.mods.hats.common.Hats/]: Allocated Hat Pools.
+[01:30:21] [Server thread/INFO] [/]: @@@@@@@@@@@@@@@@@@ Config.onLoad
+[01:30:21] [Thread-0/INFO] [/]: @@@@@@@@@@@@@@@@@@ Config.onReload
+[01:30:21] [Server thread/INFO] [FluxNetworks/]: SERVER CONFIG LOADED
+[01:30:21] [Thread-0/INFO] [FluxNetworks/]: SERVER CONFIG LOADED
+[01:30:21] [Thread-0/INFO] [FluxNetworks/]: SERVER CONFIG LOADED
+[01:30:21] [Server thread/INFO] [FTB Teams/]: Loaded FTB Teams - 2 known players
+[01:30:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01:30:21] [Server thread/INFO] [/]: Loaded 0 tesseract references!
+[01:30:21] [Server thread/INFO] [/]: Loaded 0 tesseract references!
+[01:30:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01:30:23] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01:30:23] [Worker-Main-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01:30:25] [Worker-Main-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[01:30:26] [Worker-Main-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[01:30:26] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[01:30:27] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5,284 ms
+[01:30:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
+[01:30:27] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01:30:28] [Worker-Main-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01:30:28] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[01:30:29] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,908 ms
+[01:30:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
+[01:30:29] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01:30:29] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01:30:30] [Worker-Main-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[01:30:30] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1,057 ms
+[01:30:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension bloodmagic:dungeon
+[01:30:30] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01:30:30] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01:30:31] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 922 ms
+[01:30:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension compactmachines:compact_world
+[01:30:31] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[01:30:31] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 473 ms
+[01:30:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension appliedenergistics2:spatial_storage
+[01:30:32] [Worker-Main-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[01:30:33] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[01:30:33] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2,103 ms
+[01:30:33] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[01:30:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.461s)! For help, type "help"
+[01:30:34] [Server thread/INFO] [ToolKit/]: Loading server stuff
+[01:30:34] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Server starting...
+[01:30:34] [Server thread/INFO] [com.haoict.tiab.Tiab/]: HELLO from server starting
+[01:30:34] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[01:30:34] [Server thread/INFO] [FTB Quests/]: Loading quests from /workspaces/jijijejejeje22/servidor_minecraft/config/ftbquests/quests
+[01:30:34] [Server thread/INFO] [FTB Quests/]: Loaded 6 chapter groups, 19 chapters, 574 quests, 15 reward tables
+[01:30:34] [Server thread/INFO] [net.creeperhost.minetogether.MineTogether/]: Current discoverability: unlisted
+[01:30:34] [Server thread/INFO] [net.creeperhost.minetogether.MineTogether/]: Unable to find version.json, Assuming Curse pack
+[01:30:34] [Server thread/ERROR] [net.creeperhost.minetogether.MineTogether/]: Unable to find project ID, Not adding to server list
+[01:30:35] [Server thread/INFO] [FTB Utilities Backups/]: Backups folder - /workspaces/jijijejejeje22/servidor_minecraft/backups
+[01:30:35] [Server thread/INFO] [integrateddynamics/]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
+[01:30:35] [Server thread/WARN] [integrateddynamics/]: Invalid appendix info_book.integrateddynamics.manual.parts.other from mod integrateddynamics in an infobook: Could not find minecraft:crafting recipe for integrateddynamics:crafting/part_connector_omni_directional
+[01:30:35] [Server thread/WARN] [integrateddynamics/]: Invalid appendix info_book.integrateddynamics.manual.parts.other from mod integrateddynamics in an infobook: Could not find minecraft:crafting recipe for integrateddynamics:crafting/part_connector_omni_directional_copy
+[01:30:35] [Server thread/WARN] [integrateddynamics/]: Invalid appendix info_book.integrateddynamics.manual.parts.other from mod integrateddynamics in an infobook: Could not find minecraft:crafting recipe for integrateddynamics:crafting/part_connector_omni_directional_join
+[01:30:35] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[01:30:35] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been successfully loaded
+[01:31:01] [Netty Epoll Server IO #1/WARN] [net.minecraftforge.fml.network.FMLStatusPing/]: Heuristically truncating mod and/or network channel list in server status ping packet. Compatibility report in the multiplayer screen may be inaccurate.
+[01:31:04] [Netty Epoll Server IO #2/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[01:31:04] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player RedWhite223 is 24084f56-3245-3b20-8768-1b6eda581a4b
+[01:31:04] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 214 mods : ftbessentials, supermartijn642configlib, integratedterminals, integratedterminalscompat, mcwwindows, modnametooltip, pitg, ftbdripper, ctm, reauth, powah, morpheus, jeresources, delogger, toolkit, wyml, emojiful, refinedstorage, betterendforge, industrialforegoing, torchmaster, tipthescales, bcc, blur, mcwtrpdoors, supermartijn642corelib, botania, jags, sf, structureexpansion, curios, extrastorage, constructionwand, mcwroofs, cfm, mcwfurnitures, cloth-config, cobblefordays, fastleafdecay, codechickenlib, cb_multipart, cb_microblock, cb_multipart_minecraft, projectred-core, projectred-integration, sdrp, aquafied, tconplanner, miniutilities, simplyjetpacks, ftbjarmod, portable_stonecutter, jei, attributefix, tesseract, mekanism, lemonlib, invtweaks, shutupexperimentalsettings, compactmachines, catalogue, ironchest, integratedcrafting, minecraft, theoneprobe, mousetweaks, immersiveengineering, ding, nbt_ingredient_predicate, obsidianboat, jeiintegration, pipez, mantle, integrateddynamics, integrateddynamicscompat, integratednbt, itemcollectors, gravestone, ftbbackups, serverconfigupdater, recycler, justenoughprofessions, autoreglib, harvest, fastfurnace, extremesoundmuffler, ftbstructures, rsrequestify, cyclopscore, hats, extendedcrafting, glassential, controlling, placebo, culinaryconstruct, bookshelf, botanypots, botanytrees, ibicf, squatgrow, projectred-illumination, buildinggadgets, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_locomotion, thermal_cultivation, appleskin, mcwdoors, mekanismgenerators, xnetgases, losttrinkets, mob_grinding_utils, chocolate, mcwbridges, farmersdelight, entangled, commoncapabilities, ambientsounds, ftbpromoter, lollipop, mcwfences, simplylight, simplybackpacks, patchouli, tiab, projectred-transmission, blockcarpentry, better_diving, thermal_expansion, integratedtunnels, integratedtunnelscompat, mysticalcustomization, elevatorid, ftbultimine, mekanismtools, architectury, bambooeverything, ftblibrary, ftbjanitor, ftbauxilium, ftbteams, ftbranks, aiimprovements, lightoverlay, trashcans, smallships, bwncr, bhmenu, rhino, cucumber, trashslot, flatbedrock, snad, itemfilters, mcwpaintings, clumps, roadrunner, appliedenergistics2, configured, charginggadgets, mcjtylib, rftoolsbase, xnet, notenoughwands, rftoolspower, rftoolsbuilder, rftoolsstorage, toastcontrol, ichunutil, enderstorage, akashictome, ftbchunks, kubejs, kubejs_thermal, ftbquests, kubejs_immersive_engineering, kubejs_mekanism, kubejs_ui, bloodmagic, kubejs_blood_magic, brandonscore, draconicevolution, mysticalagriculture, mysticalagradditions, craftingtweaks, tconstruct, kubejs_tinkers, rftoolsutility, neenergistics, titanium, creativecore, krate, dimpaintings, fastbench, storagedrawers, topaddons, ftbteamislands, fluxnetworks, seeddrop, ftb-power-pots, cottonly, ferritecore, chisel, minetogether, backtools, moredragoneggs, flowerseeds, refinedstorageaddons, ftbsluice, packetfixer, chiselsandbits
+[01:31:09] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: RedWhite223[/127.237.199.39:59365] logged in with entity id 14 at (246.3, 123, 4,856.553)
+[01:31:55] [Netty Epoll Server IO #4/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[01:31:55] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player antitooo is 1955a1bb-205f-3995-b45e-672bae775c82
+[01:31:56] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 212 mods : ftbessentials, supermartijn642configlib, integratedterminals, integratedterminalscompat, mcwwindows, modnametooltip, pitg, ftbdripper, ctm, reauth, powah, morpheus, jeresources, delogger, toolkit, wyml, emojiful, refinedstorage, betterendforge, industrialforegoing, torchmaster, tipthescales, bcc, blur, mcwtrpdoors, supermartijn642corelib, botania, jags, sf, structureexpansion, curios, extrastorage, constructionwand, mcwroofs, cfm, mcwfurnitures, cloth-config, cobblefordays, fastleafdecay, codechickenlib, cb_multipart, cb_microblock, cb_multipart_minecraft, projectred-core, projectred-integration, sdrp, aquafied, tconplanner, miniutilities, simplyjetpacks, ftbjarmod, portable_stonecutter, jei, attributefix, tesseract, mekanism, lemonlib, invtweaks, shutupexperimentalsettings, compactmachines, catalogue, ironchest, integratedcrafting, minecraft, theoneprobe, mousetweaks, immersiveengineering, ding, nbt_ingredient_predicate, obsidianboat, jeiintegration, pipez, mantle, integrateddynamics, integrateddynamicscompat, integratednbt, itemcollectors, gravestone, ftbbackups, serverconfigupdater, recycler, justenoughprofessions, autoreglib, harvest, fastfurnace, extremesoundmuffler, ftbstructures, rsrequestify, cyclopscore, hats, extendedcrafting, glassential, controlling, placebo, culinaryconstruct, bookshelf, botanypots, botanytrees, ibicf, squatgrow, projectred-illumination, buildinggadgets, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_locomotion, thermal_cultivation, appleskin, mcwdoors, mekanismgenerators, xnetgases, losttrinkets, mob_grinding_utils, chocolate, mcwbridges, farmersdelight, entangled, commoncapabilities, ambientsounds, lollipop, mcwfences, simplylight, simplybackpacks, patchouli, tiab, projectred-transmission, blockcarpentry, better_diving, thermal_expansion, integratedtunnels, integratedtunnelscompat, mysticalcustomization, elevatorid, ftbultimine, mekanismtools, architectury, bambooeverything, ftblibrary, ftbjanitor, ftbauxilium, ftbteams, ftbranks, aiimprovements, lightoverlay, trashcans, smallships, bwncr, rhino, cucumber, trashslot, flatbedrock, snad, itemfilters, mcwpaintings, clumps, roadrunner, appliedenergistics2, configured, charginggadgets, mcjtylib, rftoolsbase, xnet, notenoughwands, rftoolspower, rftoolsbuilder, rftoolsstorage, toastcontrol, ichunutil, enderstorage, akashictome, ftbchunks, kubejs, kubejs_thermal, ftbquests, kubejs_immersive_engineering, kubejs_mekanism, kubejs_ui, bloodmagic, kubejs_blood_magic, brandonscore, draconicevolution, mysticalagriculture, mysticalagradditions, craftingtweaks, tconstruct, kubejs_tinkers, rftoolsutility, neenergistics, titanium, creativecore, krate, dimpaintings, fastbench, storagedrawers, topaddons, ftbteamislands, fluxnetworks, seeddrop, ftb-power-pots, cottonly, ferritecore, chisel, minetogether, backtools, moredragoneggs, flowerseeds, refinedstorageaddons, ftbsluice, packetfixer, chiselsandbits
+[01:32:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: antitooo[/127.30.74.34:59741] logged in with entity id 84 at (245.606, 124.875, 4,863.614)
+[01:33:41] [Netty Epoll Server IO #6/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[01:33:41] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player antitooo is 1955a1bb-205f-3995-b45e-672bae775c82
+[01:33:41] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 212 mods : ftbessentials, supermartijn642configlib, integratedterminals, integratedterminalscompat, mcwwindows, modnametooltip, pitg, ftbdripper, ctm, reauth, powah, morpheus, jeresources, delogger, toolkit, wyml, emojiful, refinedstorage, betterendforge, industrialforegoing, torchmaster, tipthescales, bcc, blur, mcwtrpdoors, supermartijn642corelib, botania, jags, sf, structureexpansion, curios, extrastorage, constructionwand, mcwroofs, cfm, mcwfurnitures, cloth-config, cobblefordays, fastleafdecay, codechickenlib, cb_multipart, cb_microblock, cb_multipart_minecraft, projectred-core, projectred-integration, sdrp, aquafied, tconplanner, miniutilities, simplyjetpacks, ftbjarmod, portable_stonecutter, jei, attributefix, tesseract, mekanism, lemonlib, invtweaks, shutupexperimentalsettings, compactmachines, catalogue, ironchest, integratedcrafting, minecraft, theoneprobe, mousetweaks, immersiveengineering, ding, nbt_ingredient_predicate, obsidianboat, jeiintegration, pipez, mantle, integrateddynamics, integrateddynamicscompat, integratednbt, itemcollectors, gravestone, ftbbackups, serverconfigupdater, recycler, justenoughprofessions, autoreglib, harvest, fastfurnace, extremesoundmuffler, ftbstructures, rsrequestify, cyclopscore, hats, extendedcrafting, glassential, controlling, placebo, culinaryconstruct, bookshelf, botanypots, botanytrees, ibicf, squatgrow, projectred-illumination, buildinggadgets, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_locomotion, thermal_cultivation, appleskin, mcwdoors, mekanismgenerators, xnetgases, losttrinkets, mob_grinding_utils, chocolate, mcwbridges, farmersdelight, entangled, commoncapabilities, ambientsounds, lollipop, mcwfences, simplylight, simplybackpacks, patchouli, tiab, projectred-transmission, blockcarpentry, better_diving, thermal_expansion, integratedtunnels, integratedtunnelscompat, mysticalcustomization, elevatorid, ftbultimine, mekanismtools, architectury, bambooeverything, ftblibrary, ftbjanitor, ftbauxilium, ftbteams, ftbranks, aiimprovements, lightoverlay, trashcans, smallships, bwncr, rhino, cucumber, trashslot, flatbedrock, snad, itemfilters, mcwpaintings, clumps, roadrunner, appliedenergistics2, configured, charginggadgets, mcjtylib, rftoolsbase, xnet, notenoughwands, rftoolspower, rftoolsbuilder, rftoolsstorage, toastcontrol, ichunutil, enderstorage, akashictome, ftbchunks, kubejs, kubejs_thermal, ftbquests, kubejs_immersive_engineering, kubejs_mekanism, kubejs_ui, bloodmagic, kubejs_blood_magic, brandonscore, draconicevolution, mysticalagriculture, mysticalagradditions, craftingtweaks, tconstruct, kubejs_tinkers, rftoolsutility, neenergistics, titanium, creativecore, krate, dimpaintings, fastbench, storagedrawers, topaddons, ftbteamislands, fluxnetworks, seeddrop, ftb-power-pots, cottonly, ferritecore, chisel, minetogether, backtools, moredragoneggs, flowerseeds, refinedstorageaddons, ftbsluice, packetfixer, chiselsandbits
+[01:33:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: antitooo lost connection: You logged in from another location
+[01:33:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: antitooo left the game
+[01:33:46] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: antitooo[/127.30.74.34:46333] logged in with entity id 166 at (249.586, 123, 4,864.737)
+[01:34:23] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 was kicked for floating too long!
+[01:34:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 lost connection: Flying is not enabled on this server
+[01:34:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RedWhite223 left the game
+[01:34:32] [Netty Epoll Server IO #7/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[01:34:32] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player RedWhite223 is 24084f56-3245-3b20-8768-1b6eda581a4b
+[01:34:33] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 214 mods : ftbessentials, supermartijn642configlib, integratedterminals, integratedterminalscompat, mcwwindows, modnametooltip, pitg, ftbdripper, ctm, reauth, powah, morpheus, jeresources, delogger, toolkit, wyml, emojiful, refinedstorage, betterendforge, industrialforegoing, torchmaster, tipthescales, bcc, blur, mcwtrpdoors, supermartijn642corelib, botania, jags, sf, structureexpansion, curios, extrastorage, constructionwand, mcwroofs, cfm, mcwfurnitures, cloth-config, cobblefordays, fastleafdecay, codechickenlib, cb_multipart, cb_microblock, cb_multipart_minecraft, projectred-core, projectred-integration, sdrp, aquafied, tconplanner, miniutilities, simplyjetpacks, ftbjarmod, portable_stonecutter, jei, attributefix, tesseract, mekanism, lemonlib, invtweaks, shutupexperimentalsettings, compactmachines, catalogue, ironchest, integratedcrafting, minecraft, theoneprobe, mousetweaks, immersiveengineering, ding, nbt_ingredient_predicate, obsidianboat, jeiintegration, pipez, mantle, integrateddynamics, integrateddynamicscompat, integratednbt, itemcollectors, gravestone, ftbbackups, serverconfigupdater, recycler, justenoughprofessions, autoreglib, harvest, fastfurnace, extremesoundmuffler, ftbstructures, rsrequestify, cyclopscore, hats, extendedcrafting, glassential, controlling, placebo, culinaryconstruct, bookshelf, botanypots, botanytrees, ibicf, squatgrow, projectred-illumination, buildinggadgets, forge, cofh_core, thermal, thermal_foundation, thermal_innovation, thermal_locomotion, thermal_cultivation, appleskin, mcwdoors, mekanismgenerators, xnetgases, losttrinkets, mob_grinding_utils, chocolate, mcwbridges, farmersdelight, entangled, commoncapabilities, ambientsounds, ftbpromoter, lollipop, mcwfences, simplylight, simplybackpacks, patchouli, tiab, projectred-transmission, blockcarpentry, better_diving, thermal_expansion, integratedtunnels, integratedtunnelscompat, mysticalcustomization, elevatorid, ftbultimine, mekanismtools, architectury, bambooeverything, ftblibrary, ftbjanitor, ftbauxilium, ftbteams, ftbranks, aiimprovements, lightoverlay, trashcans, smallships, bwncr, bhmenu, rhino, cucumber, trashslot, flatbedrock, snad, itemfilters, mcwpaintings, clumps, roadrunner, appliedenergistics2, configured, charginggadgets, mcjtylib, rftoolsbase, xnet, notenoughwands, rftoolspower, rftoolsbuilder, rftoolsstorage, toastcontrol, ichunutil, enderstorage, akashictome, ftbchunks, kubejs, kubejs_thermal, ftbquests, kubejs_immersive_engineering, kubejs_mekanism, kubejs_ui, bloodmagic, kubejs_blood_magic, brandonscore, draconicevolution, mysticalagriculture, mysticalagradditions, craftingtweaks, tconstruct, kubejs_tinkers, rftoolsutility, neenergistics, titanium, creativecore, krate, dimpaintings, fastbench, storagedrawers, topaddons, ftbteamislands, fluxnetworks, seeddrop, ftb-power-pots, cottonly, ferritecore, chisel, minetogether, backtools, moredragoneggs, flowerseeds, refinedstorageaddons, ftbsluice, packetfixer, chiselsandbits
+[01:34:37] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: RedWhite223[/127.237.199.39:52903] logged in with entity id 199 at (255.613, 122.119, 4,849.545)
+[01:37:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made RedWhite223 a server operator
+[01:37:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Gave 1 [Ultiminer] to RedWhite223]
+[01:37:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RedWhite223 has unlocked Ultiminer trinket
+[01:40:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode creative
+[01:40:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Creative Mode]
+[01:40:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode survival
+[01:40:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Survival Mode]
+[01:40:51] [Server thread/INFO] [morpheus/]: RedWhite223 is now sleeping. 1/2 (50%)
+[01:41:47] [Server thread/INFO] [/]: null
+[01:44:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo
+[01:44:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported RedWhite223 to antitooo]
+[01:45:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode spectator
+[01:45:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Spectator Mode]
+[01:45:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RedWhite223 has reached the goal [Earthslime Island]
+[01:45:41] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo
+[01:45:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported RedWhite223 to antitooo]
+[01:45:44] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode survival
+[01:45:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Survival Mode]
+[01:46:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: antitooo drowned whilst trying to escape Guardian
+[01:46:17] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 moved too quickly! -12.007,0.381,-4.395
+[01:46:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode spectator
+[01:46:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Spectator Mode]
+[01:46:21] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: antitooo moved too quickly! -5.164,0,-8.744
+[01:46:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode survival
+[01:46:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Survival Mode]
+[01:46:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo RedWhite223
+[01:46:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported antitooo to RedWhite223]
+[01:47:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: antitooo drowned
+[01:47:27] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /back
+[01:47:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /back
+[01:47:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode spectator
+[01:47:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Spectator Mode]
+[01:47:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo RedWhite223
+[01:47:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported antitooo to RedWhite223]
+[01:47:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode creative
+[01:47:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Creative Mode]
+[01:48:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo RedWhite223
+[01:48:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported antitooo to RedWhite223]
+[01:48:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo RedWhite223
+[01:48:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported antitooo to RedWhite223]
+[01:48:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo RedWhite223
+[01:48:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported antitooo to RedWhite223]
+[01:48:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode spectator
+[01:48:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Spectator Mode]
+[01:49:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo RedWhite223
+[01:49:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported antitooo to RedWhite223]
+[01:49:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode survival
+[01:49:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Survival Mode]
+[01:49:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode spectator
+[01:49:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Spectator Mode]
+[01:49:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode survival
+[01:49:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Survival Mode]
+[01:49:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode spectator
+[01:49:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Spectator Mode]
+[01:49:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo
+[01:49:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported RedWhite223 to antitooo]
+[01:49:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode survival
+[01:49:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Survival Mode]
+[01:51:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode creative
+[01:51:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Creative Mode]
+[01:51:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode survival
+[01:51:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Survival Mode]
+[01:51:45] [Server thread/INFO] [morpheus/]: antitooo is now sleeping. 1/2 (50%)
+[01:51:52] [Async Chat Thread - 2/INFO] [/]: <antitooo> :ftb:
+[01:53:02] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode creative
+[01:53:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Creative Mode]
+[01:53:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /gamemode survival
+[01:53:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Set own game mode to Survival Mode]
+[01:59:47] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tpahere antitooo
+[01:59:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: antitooo issued server command: /tpaccept 6CB0E72E
+[01:59:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: antitooo issued server command: /tpaccept 6CB0E72E
+[01:59:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: antitooo issued server command: /tpaccept 6CB0E72E
+[02:00:03] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: RedWhite223 issued server command: /tp antitooo RedWhite223
+[02:00:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [RedWhite223: Teleported antitooo to RedWhite223]
+[02:00:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: RedWhite223 has unlocked Book O'Enchanting trinket

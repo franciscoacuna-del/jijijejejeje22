@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/bronze"
+        },
+        {
+            "item": "immersiveengineering:hammer"
+        }
+    ],
+    "result": {
+        "item": "thermal:bronze_plate"
+    }
+}

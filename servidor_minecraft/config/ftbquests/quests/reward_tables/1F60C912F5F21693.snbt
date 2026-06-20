@@ -1,0 +1,91 @@
+{
+	id: "1F60C912F5F21693"
+	order_index: 13
+	title: "leg-b"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "minecraft:netherite_block", weight: 5 }
+		{ item: "simplyjetpacks:jetpack_vanilla4", weight: 5 }
+		{ item: "mysticalagriculture:supremium_furnace", weight: 5 }
+		{ item: "mysticalagradditions:supremium_paxel", weight: 5 }
+		{ item: "mysticalagradditions:supremium_apple", count: 64, weight: 2 }
+		{ item: "extrastorage:netherite_crafter", weight: 5 }
+		{
+			item: {
+				id: "botania:manaweave_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "industrialforegoing:infinity_trident"
+				Count: 1b
+				tag: {
+					CanCharge: 1b
+					Riptide: 0
+					Channeling: 0b
+					Energy: 0L
+					Fluid: {
+						FluidName: "biofuel"
+						Amount: 0
+					}
+					Special: 0b
+					Selected: "POOR"
+					Loyalty: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "powah:energizing_rod_spirited", weight: 5 }
+		{ item: "powah:energy_hopper_spirited", weight: 5 }
+		{
+			item: {
+				id: "powah:battery_spirited"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "draconicevolution:wyvern_pickaxe"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: {
+						module_host: {
+							provider_id: [I;
+								1018783651
+								-977647392
+								-1166830366
+								-1875648351
+							]
+							modules: [ ]
+							properties: {
+								mining_speed: {
+									hud: 1b
+									value: 1.0d
+								}
+							}
+						}
+						energy: {
+							energy: 0L
+						}
+					}
+				}
+			}
+			weight: 5
+		}
+		{ item: "mysticalagriculture:netherite_seeds", weight: 2 }
+		{ item: "mysticalagriculture:emerald_seeds", weight: 2 }
+		{ item: "mysticalagriculture:diamond_seeds", weight: 2 }
+		{ item: "mysticalagriculture:draconium_seeds", weight: 2 }
+		{ item: "minecraft:clay_ball", count: 64, weight: 5 }
+	]
+}

@@ -1,0 +1,277 @@
+[01:30:03] [INFO ] Loaded script server_scripts:resources/unify.js in 0.006 s
+[01:30:03] [INFO ] Loaded script server_scripts:resources/entity.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:resources/tags.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:recipes.replace.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.mekanism.js in 0.011 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.recycler.js in 0.003 s
+[01:30:03] [INFO ] Loaded script server_scripts:tags.js in 0.003 s
+[01:30:03] [INFO ] Loaded script server_scripts:recipes.remove.js in 0.002 s
+[01:30:03] [INFO ] Loaded script server_scripts:recipes.smithing.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:recipes.shapeless.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:resources/recipes.js in 0.002 s
+[01:30:03] [INFO ] Loaded script server_scripts:recipes.campfire.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:recipes.shaped.js in 0.003 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.integrateddynamics.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.ie.js in 0.004 s
+[01:30:03] [INFO ] Loaded script server_scripts:resources/cast_iron.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:resources/cobblegen.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.tinkers.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.extendedcrafting.js in 0.006 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbstructures/structures.js in 0.054 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/draconicevolution/fusioncrafting.js in 0.004 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbjarmod/recipes.js in 0.003 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbjarmod/temperaturesource.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbsluice/hammer.js in 0.002 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbsluice/sluice/crushednetherrack.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbsluice/sluice/dust.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbsluice/sluice/crushedendstone.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbsluice/sluice/sand.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbsluice/sluice/dirt.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbsluice/sluice/gravel.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/ftbsluice/sluice/crushedbasalt.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.thermal.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.emojiful.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.ftbdripper.js in 0.001 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/recipes.botanypots.js in 0.004 s
+[01:30:03] [INFO ] Loaded script server_scripts:mods/industrialforegoing/laser_drill_ore.js in 0.002 s
+[01:30:03] [INFO ] Loaded script server_scripts:badendstonedust.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:player/swimming.js in 0.002 s
+[01:30:03] [INFO ] Loaded script server_scripts:player/end.js in 0.002 s
+[01:30:03] [INFO ] Loaded script server_scripts:player/boat.js in 0.0 s
+[01:30:03] [INFO ] Loaded script server_scripts:player/quest.js in 0.001 s
+[01:30:03] [INFO ] Loaded 41/41 KubeJS server scripts in 0.138 s
+[01:30:03] [INFO ] Scripts loaded
+[01:30:03] [INFO ] Scanning recipes...
+[01:30:07] [INFO ] [blocks] Found 648 tags, added 13 objects, removed 1 objects
+[01:30:07] [INFO ] [blocks] Found 648 tags, added 0 objects, removed 0 objects
+[01:30:07] [INFO ] [items] Found 1379 tags, added 636 objects, removed 1 objects
+[01:30:07] [INFO ] [items] Found 1379 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [fluids] Found 144 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [fluids] Found 144 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [entity_types] Found 27 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [entity_types] Found 27 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [tunnel_types] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [tunnel_types] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [enchantments] Found 1 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [enchantments] Found 1 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[01:30:08] [INFO ] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:birch_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_galley'
+[01:30:08] [WARN ] Failed to parse recipe smallships:birch_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_galley'
+[01:30:08] [WARN ] Failed to parse recipe 'wyml:jungle_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:jungle_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe wyml:jungle_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:jungle_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_husk_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:spruce_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_rowboat'
+[01:30:08] [WARN ] Failed to parse recipe smallships:spruce_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_rowboat'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_oak_sapling[thermal:insolator]': {"item":"minecraft:orange_oak_sapling"} is not a valid ingredient!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:acacia_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_rowboat'
+[01:30:08] [WARN ] Failed to parse recipe smallships:acacia_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_rowboat'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_panda_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'wyml:dark_oak_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:dark_oak_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe wyml:dark_oak_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:dark_oak_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_vindicator_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:birch_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_drakkar'
+[01:30:08] [WARN ] Failed to parse recipe smallships:birch_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_drakkar'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_phantom_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_shulker_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:spruce_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_galley'
+[01:30:08] [WARN ] Failed to parse recipe smallships:spruce_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_galley'
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:dark_oak_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_galley'
+[01:30:08] [WARN ] Failed to parse recipe smallships:dark_oak_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_galley'
+[01:30:08] [WARN ] Failed to parse recipe 'bloodmagic:meteor/create[bloodmagic:meteor]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create:andesite_alloy'
+[01:30:08] [WARN ] Failed to parse recipe bloodmagic:meteor/create[bloodmagic:meteor]: com.google.gson.JsonSyntaxException: Unknown item 'create:andesite_alloy'
+[01:30:08] [WARN ] Failed to parse recipe 'wyml:oak_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:oak_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe wyml:oak_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:oak_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_ravager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_villager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:dark_oak_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_galley'
+[01:30:08] [WARN ] Failed to parse recipe smallships:dark_oak_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_galley'
+[01:30:08] [WARN ] Failed to parse recipe 'wyml:acacia_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:acacia_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe wyml:acacia_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:acacia_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:oak_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_dhow'
+[01:30:08] [WARN ] Failed to parse recipe smallships:oak_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_dhow'
+[01:30:08] [WARN ] Failed to parse recipe 'wyml:warped_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:warped_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe wyml:warped_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:warped_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:dark_oak_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_rowboat'
+[01:30:08] [WARN ] Failed to parse recipe smallships:dark_oak_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_rowboat'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_guardian_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:jungle_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_galley'
+[01:30:08] [WARN ] Failed to parse recipe smallships:jungle_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_galley'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_wolf_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'mysticalagriculture:essence/quark/marble[cucumber:shaped_no_mirror]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:marble'
+[01:30:08] [WARN ] Failed to parse recipe mysticalagriculture:essence/quark/marble[cucumber:shaped_no_mirror]: com.google.gson.JsonSyntaxException: Unknown item 'quark:marble'
+[01:30:08] [WARN ] Failed to parse recipe 'wyml:spruce_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:spruce_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe wyml:spruce_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:spruce_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:acacia_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_galley'
+[01:30:08] [WARN ] Failed to parse recipe smallships:acacia_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_galley'
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:spruce_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_drakkar'
+[01:30:08] [WARN ] Failed to parse recipe smallships:spruce_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_drakkar'
+[01:30:08] [WARN ] Failed to parse recipe 'wyml:crimson_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:crimson_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe wyml:crimson_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:crimson_fence_gate'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_polar_bear_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_mooshroom_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_llama_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_horse_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:oak_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_galley'
+[01:30:08] [WARN ] Failed to parse recipe smallships:oak_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_galley'
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:jungle_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_dhow'
+[01:30:08] [WARN ] Failed to parse recipe smallships:jungle_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_dhow'
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_silverfish_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_stray_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/betterendforge/insolator_betterendforge_jellyshroom_sapling[thermal:insolator]': {"item":"betterendforge:jellyshroom_sapling"} is not a valid ingredient!
+[01:30:08] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_fox_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:08] [WARN ] Failed to parse recipe 'smallships:birch_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_rowboat'
+[01:30:08] [WARN ] Failed to parse recipe smallships:birch_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_rowboat'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_endermite_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:birch_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_galley'
+[01:30:09] [WARN ] Failed to parse recipe smallships:birch_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_galley'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_vex_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:fuels/compression/compression_creosote[thermal:compression_fuel]': {"fluid_tag":"forge:creosote","amount":1000} is not a valid ingredient!
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:jungle_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_galley'
+[01:30:09] [WARN ] Failed to parse recipe smallships:jungle_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_galley'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_witch_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_pillager_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:jungle_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_drakkar'
+[01:30:09] [WARN ] Failed to parse recipe smallships:jungle_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_drakkar'
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:dark_oak_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_drakkar'
+[01:30:09] [WARN ] Failed to parse recipe smallships:dark_oak_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_drakkar'
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:acacia_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_dhow'
+[01:30:09] [WARN ] Failed to parse recipe smallships:acacia_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_dhow'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_birch_sapling[thermal:insolator]': {"item":"minecraft:yellow_birch_sapling"} is not a valid ingredient!
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:acacia_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_drakkar'
+[01:30:09] [WARN ] Failed to parse recipe smallships:acacia_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_drakkar'
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:jungle_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_rowboat'
+[01:30:09] [WARN ] Failed to parse recipe smallships:jungle_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:jungle_rowboat'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_evoker_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:oak_rowboat[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_rowboat'
+[01:30:09] [WARN ] Failed to parse recipe smallships:oak_rowboat[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_rowboat'
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:oak_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_galley'
+[01:30:09] [WARN ] Failed to parse recipe smallships:oak_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_galley'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_birch_sapling[thermal:insolator]': {"item":"minecraft:orange_birch_sapling"} is not a valid ingredient!
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_parrot_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_magma_cube_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_drowned_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_dolphin_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:dark_oak_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_dhow'
+[01:30:09] [WARN ] Failed to parse recipe smallships:dark_oak_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:dark_oak_dhow'
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:acacia_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_galley'
+[01:30:09] [WARN ] Failed to parse recipe smallships:acacia_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:acacia_galley'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_oak_sapling[thermal:insolator]': {"item":"minecraft:yellow_oak_sapling"} is not a valid ingredient!
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_cat_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_red_oak_sapling[thermal:insolator]': {"item":"minecraft:red_oak_sapling"} is not a valid ingredient!
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:oak_drakkar[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_drakkar'
+[01:30:09] [WARN ] Failed to parse recipe smallships:oak_drakkar[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:oak_drakkar'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_bat_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:spruce_war_galley[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_galley'
+[01:30:09] [WARN ] Failed to parse recipe smallships:spruce_war_galley[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_galley'
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:spruce_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_dhow'
+[01:30:09] [WARN ] Failed to parse recipe smallships:spruce_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:spruce_dhow'
+[01:30:09] [WARN ] Failed to parse recipe 'smallships:birch_dhow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_dhow'
+[01:30:09] [WARN ] Failed to parse recipe smallships:birch_dhow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'smallships:birch_dhow'
+[01:30:09] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_flowering_oak_sapling[thermal:insolator]': {"item":"minecraft:flowering_oak_sapling"} is not a valid ingredient!
+[01:30:09] [WARN ] Failed to parse recipe 'wyml:birch_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:birch_fence_gate'
+[01:30:09] [WARN ] Failed to parse recipe wyml:birch_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:birch_fence_gate'
+[01:30:09] [INFO ] Found 15361 recipes and 0 failed recipes in 1.327 s
+[01:30:10] [INFO ] Posted recipe events in 1.349 s
+[01:30:11] [INFO ] Modified & removed recipes in 348.5 ms
+[01:30:11] [INFO ] Added recipes in 48.80 ms
+[01:30:11] [INFO ] Added 1263 recipes, removed 220 recipes, modified 1205 recipes, with 0 failed recipes and 0 fall-backed recipes
+[01:30:12] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[01:30:12] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects

@@ -1,0 +1,7 @@
+{
+    "name": "Terrasteel Nugget",
+    "colors": ["80FC0F", "C4FC90"],
+    "ingredient": {
+        "item": "botania:terrasteel_nugget"
+    }
+}

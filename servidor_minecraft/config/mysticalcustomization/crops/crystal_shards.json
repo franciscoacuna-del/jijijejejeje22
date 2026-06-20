@@ -1,0 +1,13 @@
+{
+    "name": "Crystal Shards",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+        "item": "betterendforge:crystal_shards"
+    },
+    "color": "7410a9",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_rock",
+        "essence": "mysticalagriculture:item/essence_gem"
+    }
+}

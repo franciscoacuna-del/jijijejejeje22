@@ -1,0 +1,263 @@
+{
+	id: "518B9F260994261B"
+	order_index: 5
+	title: "mid-c"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "miniutilities:experience_pearl_8x" }
+		{ item: "enderstorage:ender_chest", weight: 5 }
+		{
+			item: {
+				id: "buildinggadgets:gadget_copy_paste"
+				Count: 1b
+				tag: {
+					mode: 0b
+					template_id: [I;
+						-1923430700
+						391790831
+						-1658474306
+						-1217934808
+					]
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "mekanismtools:diamond_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{ item: "mob_grinding_utils:tank", weight: 3 }
+		{ item: "mob_grinding_utils:saw", weight: 2 }
+		{ item: "simplyjetpacks:jetpack_vanilla2", weight: 3 }
+		{ item: "notenoughwands:swapping_wand", weight: 4 }
+		{
+			item: {
+				id: "theoneprobe:iron_helmet_probe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "immersiveengineering:cloche", count: 4, weight: 2 }
+		{ item: "industrialforegoing:pity_black_hole_tank" }
+		{ item: "industrialforegoing:mycelial_explosive" }
+		{ item: "industrialforegoing:wither_builder" }
+		{ item: "rid:emerald_cluster", count: 40 }
+		{ item: "rid:lapis_cluster", count: 64, weight: 3 }
+		{ item: "industrialforegoing:material_stonework_factory", weight: 3 }
+		{
+			item: {
+				id: "tconstruct:hammer_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:manyullyn"
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "mysticalagradditions:imperium"
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "tconstruct:broad_axe"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 4.25f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.6f
+						"tconstruct:mining_speed": 1.5300002f
+						"tconstruct:attack_damage": 12.375f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 2711.5f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:tasty"
+							level: 4s
+						}
+						{
+							name: "tconstruct:axe_transform_hidden"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:pig_iron"
+						"tconstruct:pig_iron"
+						"tconstruct:pig_iron"
+						"tconstruct:pig_iron"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "tconstruct:cleaver"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.25f
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 3.5f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.035f
+						"tconstruct:mining_speed": 0.5f
+						"tconstruct:attack_damage": 7.5f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 283.5f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:necrotic"
+							level: 4s
+						}
+						{
+							name: "tconstruct:severing"
+							level: 2s
+						}
+						{
+							name: "tconstruct:silky_aoe_shears"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:necrotic_bone"
+						"tconstruct:necrotic_bone"
+						"tconstruct:necrotic_bone"
+						"tconstruct:necrotic_bone"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			weight: 3
+		}
+		{ item: "tconstruct:smeltery_controller", weight: 3 }
+		{
+			item: {
+				id: "botania:manasteel_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:super_travel_belt"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{ item: "obsidianboat:obsidianboat", weight: 5 }
+		{ item: "fluxnetworks:herculean_flux_storage", weight: 4 }
+		{ item: "fluxnetworks:flux_plug", count: 4, weight: 4 }
+		{
+			item: {
+				id: "industrialforegoing:range_addon2"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 2.0f
+					}
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:laser_lens12", weight: 5 }
+		{ item: "industrialforegoing:laser_lens11", weight: 5 }
+		{ item: "industrialforegoing:meat_feeder", weight: 4 }
+		{ item: "industrialforegoing:conveyor", count: 32, weight: 2 }
+		{ item: "industrialforegoing:machine_frame_simple", count: 3, weight: 3 }
+		{ item: "immersiveengineering:windmill", weight: 4 }
+		{ item: "thermal:fluid_tank_augment", weight: 3 }
+		{ item: "thermal:rf_coil_storage_augment", weight: 4 }
+		{
+			item: {
+				id: "powah:battery_basic"
+				Count: 1b
+				tag: { }
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "draconicevolution:reaper_enchantment"
+					}]
+				}
+			}
+			weight: 2
+		}
+		{ item: "bloodmagic:demonslate", weight: 3 }
+		{
+			item: {
+				id: "botania:pixie_ring"
+				Count: 1b
+				tag: {
+					baubleUUIDMost: 3385065406023485228L
+					baubleUUIDLeast: -6255989936882843415L
+				}
+			}
+			weight: 2
+		}
+		{ item: "mysticalagriculture:coal_seeds" }
+		{ item: "mysticalagriculture:coral_seeds" }
+		{ item: "mysticalagriculture:honey_seeds" }
+		{ item: "mysticalagriculture:pig_seeds" }
+		{ item: "mysticalagriculture:chicken_seeds" }
+		{ item: "mysticalagriculture:cow_seeds" }
+		{ item: "mysticalagriculture:sheep_seeds" }
+		{ item: "mysticalagriculture:squid_seeds" }
+		{ item: "mysticalagriculture:fish_seeds" }
+	]
+}

@@ -1,0 +1,104 @@
+{
+    "dropConfig": [
+        {
+            "item": "minecraft:wheat_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:frost_melon_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:coffee_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:tea_seeds",
+            "chance": 1
+        },
+        {
+            "item": "minecraft:carrot",
+            "chance": 1
+        },
+        {
+            "item": "farmersdelight:rice",
+            "chance": 1
+        },
+        {
+            "item": "farmersdelight:tomato_seeds",
+            "chance": 1
+        },
+        {
+            "item": "farmersdelight:cabbage_seeds",
+            "chance": 1
+        },
+        {
+            "item": "minecraft:potato",
+            "chance": 1
+        },
+        {
+            "item": "thermal:hops_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:rice_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:corn_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:spinach_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:strawberry_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:peanut_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:eggplant_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:flax_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:barley_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:tomato_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:radish_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:sadiroot_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:onion_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:green_bean_seeds",
+            "chance": 1
+        },
+        {
+            "item": "thermal:bell_pepper_seeds",
+            "chance": 1
+        },
+        {
+            "item": "immersiveengineering:seed",
+            "chance": 1
+        }
+    ]
+}

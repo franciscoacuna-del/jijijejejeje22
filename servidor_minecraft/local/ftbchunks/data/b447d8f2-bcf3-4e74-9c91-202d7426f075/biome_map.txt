@@ -1,0 +1,4 @@
+#109 minecraft:deep_cold_ocean
+#7EA minecraft:deep_warm_ocean
+#79A minecraft:lukewarm_ocean
+#2B7 minecraft:warm_ocean

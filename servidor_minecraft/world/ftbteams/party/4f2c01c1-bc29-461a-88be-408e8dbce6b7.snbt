@@ -1,0 +1,25 @@
+{
+	id: "4f2c01c1-bc29-461a-88be-408e8dbce6b7"
+	type: "party"
+	owner: "24084f56-3245-3b20-8768-1b6eda581a4b"
+	ranks: {
+		1955a1bb-205f-3995-b45e-672bae775c82: "member"
+		24084f56-3245-3b20-8768-1b6eda581a4b: "owner"
+	}
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbteams:display_name": "RedWhite223's Party"
+		"ftbteams:color": "#FF5977"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1781830502954L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"RedWhite223\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "24084f56-3245-3b20-8768-1b6eda581a4b", date: 1781830536296L, text: "{\"color\":\"green\",\"text\":\"Invited antitooo\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1781830553854L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"antitooo\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

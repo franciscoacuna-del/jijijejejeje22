@@ -1,0 +1,97 @@
+{
+	id: "5DD7AC84A2440223"
+	order_index: 6
+	title: "late-a"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "mekanism:elite_compressing_factory", weight: 2 }
+		{ item: "notenoughwands:teleportation_wand", weight: 5 }
+		{ item: "bloodmagic:demoncrystallizer", weight: 3 }
+		{ item: "mysticalagriculture:tertium_furnace", weight: 4 }
+		{
+			item: {
+				id: "mysticalagradditions:tertium_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "theoneprobe:gold_helmet_probe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "extrastorage:gold_crafter", weight: 4 }
+		{
+			item: {
+				id: "betterendforge:aeternium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:simple_black_hole_unit", weight: 5 }
+		{ item: "industrialforegoing:mycelial_frosty", weight: 3 }
+		{ item: "industrialforegoing:sewer", weight: 5 }
+		{
+			item: {
+				id: "botania:elementium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:mana_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{ item: "rftoolsstorage:storage_module2", weight: 5 }
+		{ item: "enderstorage:ender_tank", count: 2, weight: 5 }
+		{ item: "fluxnetworks:gargantuan_flux_storage", weight: 5 }
+		{
+			item: {
+				id: "industrialforegoing:range_addon3"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 3.0f
+					}
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:laser_lens14", weight: 5 }
+		{ item: "industrialforegoing:laser_lens10", weight: 5 }
+		{ item: "immersiveengineering:shader_bag_rare", weight: 5 }
+		{ item: "thermal:xp_storage_augment", weight: 5 }
+		{ item: "powah:energizing_rod_hardened", weight: 5 }
+		{ item: "bloodmagic:voidsigil", weight: 5 }
+		{ item: "botania:white_petal", count: 64, weight: 3 }
+		{ item: "botania:magenta_petal", count: 64, weight: 3 }
+		{ item: "botania:lime_petal", count: 64, weight: 3 }
+		{ item: "mysticalagriculture:tin_seeds", weight: 2 }
+		{ item: "mysticalagriculture:bronze_seeds", weight: 2 }
+		{ item: "mysticalagriculture:brass_seeds", weight: 2 }
+		{ item: "mysticalagriculture:silver_seeds", weight: 2 }
+		{ item: "mysticalagriculture:lead_seeds", weight: 2 }
+		{ item: "mysticalagriculture:blizz_seeds", weight: 2 }
+		{ item: "mysticalagriculture:blitz_seeds", weight: 2 }
+	]
+}

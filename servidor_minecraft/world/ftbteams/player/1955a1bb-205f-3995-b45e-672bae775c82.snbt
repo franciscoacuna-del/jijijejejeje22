@@ -1,0 +1,18 @@
+{
+	id: "1955a1bb-205f-3995-b45e-672bae775c82"
+	type: "player"
+	player_name: "antitooo"
+	ranks: { }
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbteams:display_name": "antitooo"
+		"ftbteams:color": "#FF596F"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,91 @@
+{
+	id: "443C48B5C986AA12"
+	order_index: 10
+	title: "end-b"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "simplyjetpacks:jetpack_mek3", weight: 5 }
+		{ item: "rftoolspower:dimensionalcell_advanced", weight: 5 }
+		{
+			item: {
+				id: "betterendforge:crystalite_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:advanced_black_hole_unit", weight: 4 }
+		{ item: "industrialforegoing:mycelial_crimed", weight: 3 }
+		{ item: "rftoolsstorage:storage_module3", weight: 5 }
+		{
+			item: {
+				id: "botania:terrasteel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "industrialforegoing:range_addon7"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 7.0f
+					}
+				}
+			}
+			weight: 3
+		}
+		{ item: "powah:energy_hopper_blazing", weight: 5 }
+		{ item: "draconicevolution:awakened_draconium_ingot", count: 32, weight: 2 }
+		{
+			item: {
+				id: "botania:speed_up_belt"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:dodge_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:magnet_ring_greater"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:mana_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{ item: "mysticalagriculture:refined_obsidian_seeds", weight: 2 }
+		{ item: "mysticalagriculture:refined_glowstone_seeds", weight: 2 }
+		{ item: "mysticalagriculture:fluorite_seeds", weight: 2 }
+		{ item: "mysticalagriculture:osmium_seeds", weight: 2 }
+		{ item: "mysticalagriculture:elementium_seeds", weight: 2 }
+		{ item: "mysticalagriculture:rose_gold_seeds", weight: 2 }
+		{ item: "mysticalagriculture:cobalt_seeds", weight: 2 }
+		{ item: "mysticalagriculture:hop_graphite_seeds", weight: 2 }
+		{ item: "mysticalagriculture:signalum_seeds", weight: 2 }
+		{ item: "mysticalagriculture:fluix_seeds", weight: 2 }
+	]
+}

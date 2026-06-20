@@ -1,0 +1,7 @@
+{
+    "name": "Angel Core",
+    "colors": ["FBDD47", "FBDD47"],
+    "ingredient": {
+        "item": "constructionwand:core_angel"
+    }
+}

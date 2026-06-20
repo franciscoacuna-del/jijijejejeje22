@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "24084f5632453b2087681b6eda581a4b"
+	name: "RedWhite223"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

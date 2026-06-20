@@ -1,0 +1,172 @@
+{
+	id: "046C7BF65AB16BA0"
+	order_index: 2
+	title: "early-c"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "rid:3x_compressed_sand", weight: 5 }
+		{
+			item: {
+				id: "mekanismtools:bronze_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{ item: "miniutilities:blessed_earth", count: 16, weight: 2 }
+		{ item: "miniutilities:iron_spikes", weight: 3 }
+		{ item: "mob_grinding_utils:tank", weight: 3 }
+		{ item: "mob_grinding_utils:saw", weight: 2 }
+		{ item: "mob_grinding_utils:fan", weight: 2 }
+		{ item: "mob_grinding_utils:absorption_hopper", weight: 2 }
+		{ item: "mcwroofs:oak_lower_roof", count: 64, weight: 5 }
+		{ item: "simplyjetpacks:jetpack_vanilla1", weight: 3 }
+		{ item: "industrialforegoing:common_black_hole_unit", weight: 3 }
+		{ item: "industrialforegoing:animal_feeder", weight: 2 }
+		{ item: "rid:copper_cluster", count: 32, weight: 3 }
+		{ item: "krate:krate_small", weight: 5 }
+		{ item: "krate:krate_basic", weight: 4 }
+		{ item: "krate:krate_big", weight: 3 }
+		{ item: "krate:krate_large", weight: 2 }
+		{
+			item: {
+				id: "tconstruct:broad_axe_head"
+				Count: 1b
+				tag: {
+					Material: "mysticalagradditions:prudentium"
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "tconstruct:vein_hammer"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.3f
+						"tconstruct:attack_damage": 1.25f
+						"tconstruct:durability": 5.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.1f
+						"tconstruct:mining_speed": 2.3400002f
+						"tconstruct:attack_damage": 4.375f
+						"tconstruct:harvest_level": 2.0f
+						"tconstruct:durability": 890.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:dwarven"
+							level: 4s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 2s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:copper"
+						"tconstruct:copper"
+						"tconstruct:copper"
+						"tconstruct:copper"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "tconstruct:scythe"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.45f
+						"tconstruct:durability": 2.5f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.88000005f
+						"tconstruct:mining_speed": 4.145175f
+						"tconstruct:attack_damage": 9.525f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 1345.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "mysticalagradditions:prosperous"
+							level: 4s
+						}
+						{
+							name: "tconstruct:silky_aoe_shears"
+							level: 1s
+						}
+						{
+							name: "tconstruct:harvest"
+							level: 1s
+						}
+						{
+							name: "tconstruct:hoe_transform_hidden"
+							level: 1s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					HideFlags: 3
+					tic_materials: [
+						"mysticalagradditions:prudentium"
+						"mysticalagradditions:prudentium"
+						"mysticalagradditions:prudentium"
+						"mysticalagradditions:prudentium"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			weight: 2
+		}
+		{ item: "botania:terraform_rod" }
+		{
+			item: {
+				id: "botania:dodge_ring"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3
+		}
+		{ item: "elevatorid:elevator_white", count: 2, weight: 4 }
+		{ item: "storagedrawers:diamond_storage_upgrade", count: 3, weight: 2 }
+		{ item: "obsidianboat:obsidianboat", weight: 4 }
+		{ item: "storagedrawers:redstone_upgrade", count: 3, weight: 4 }
+		{ item: "storagedrawers:shroud_key", weight: 5 }
+		{ item: "rftoolsstorage:storage_module0", weight: 2 }
+		{ item: "refinedstorage:controller" }
+		{ item: "refinedstorage:destruction_core", count: 4, weight: 2 }
+		{ item: "industrialforegoing:laser_lens3", weight: 4 }
+		{ item: "industrialforegoing:laser_lens5", weight: 4 }
+		{ item: "industrialforegoing:machine_frame_pity", count: 3, weight: 3 }
+		{ item: "powah:energy_hopper_starter", weight: 3 }
+		{ item: "bloodmagic:weakbloodorb" }
+		{ item: "mysticalagriculture:dirt_seeds" }
+	]
+}

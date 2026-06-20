@@ -1,0 +1,107 @@
+{
+	id: "2E135EB4A49DD04D"
+	order_index: 8
+	title: "late-c"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "simplyjetpacks:jetpack_vanilla3", weight: 5 }
+		{ item: "notenoughwands:capturing_wand", weight: 5 }
+		{ item: "bloodmagic:incensealtar", weight: 5 }
+		{ item: "mysticalagriculture:imperium_growth_accelerator", weight: 5 }
+		{ item: "mysticalagradditions:tertium_apple", count: 32, weight: 5 }
+		{ item: "extrastorage:block_1024k", weight: 5 }
+		{
+			item: {
+				id: "betterendforge:crystalite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:mycelial_pink", weight: 5 }
+		{ item: "industrialforegoing:animal_baby_separator", weight: 5 }
+		{
+			item: {
+				id: "botania:elementium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:pixie_ring"
+				Count: 1b
+				tag: {
+					baubleUUIDMost: -1520632121105692370L
+					baubleUUIDLeast: -5900118875435141384L
+				}
+			}
+			weight: 5
+		}
+		{ item: "rftoolsstorage:storage_module2", weight: 5 }
+		{ item: "enderstorage:ender_pouch", weight: 5 }
+		{
+			item: {
+				id: "industrialforegoing:range_addon5"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 5.0f
+					}
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "industrialforegoing:infinity_backpack"
+				Count: 1b
+				tag: {
+					CanCharge: 1b
+					Special: 0b
+					Selected: "POOR"
+					Energy: 0L
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:machine_frame_advanced", count: 3, weight: 5 }
+		{ item: "thermal:rf_coil_augment", weight: 5 }
+		{
+			item: {
+				id: "powah:battery_hardened"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{ item: "bloodmagic:magicianbloodorb", weight: 5 }
+		{ item: "bloodmagic:airsigil", weight: 5 }
+		{ item: "botania:gray_petal", count: 64, weight: 5 }
+		{ item: "botania:yellow_petal", count: 64, weight: 5 }
+		{ item: "botania:orange_petal", count: 64, weight: 5 }
+		{
+			item: {
+				id: "botania:travel_belt"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{ item: "mysticalagriculture:basalz_seeds", weight: 2 }
+		{ item: "mysticalagriculture:tinkers_bronze_seeds", weight: 2 }
+		{ item: "mysticalagriculture:slimesteel_seeds", weight: 2 }
+		{ item: "mysticalagriculture:pig_iron_seeds", weight: 2 }
+		{ item: "mysticalagriculture:manasteel_seeds", weight: 2 }
+		{ item: "mysticalagriculture:sky_stone_seeds", weight: 2 }
+		{ item: "mysticalagriculture:quartz_enriched_iron_seeds", weight: 2 }
+		{ item: "mysticalagriculture:certus_quartz_seeds", weight: 2 }
+	]
+}

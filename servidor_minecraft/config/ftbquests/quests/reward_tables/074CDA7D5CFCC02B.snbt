@@ -1,0 +1,89 @@
+{
+	id: "074CDA7D5CFCC02B"
+	order_index: 7
+	title: "late-b"
+	icon: "minecraft:chest"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "simplyjetpacks:jetpack_mek2", weight: 5 }
+		{ item: "rftoolspower:dimensionalcell_simple", weight: 5 }
+		{ item: "bloodmagic:demoncrucible", weight: 5 }
+		{
+			item: {
+				id: "betterendforge:aeternium_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:simple_black_hole_tank", weight: 5 }
+		{ item: "industrialforegoing:mycelial_halitosis", weight: 5 }
+		{ item: "industrialforegoing:sewage_composter", weight: 5 }
+		{
+			item: {
+				id: "botania:elementium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "botania:aura_ring_greater"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
+		}
+		{ item: "enderstorage:ender_chest", count: 2, weight: 5 }
+		{
+			item: {
+				id: "industrialforegoing:range_addon4"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 4.0f
+					}
+				}
+			}
+			weight: 5
+		}
+		{ item: "industrialforegoing:laser_lens13", weight: 5 }
+		{ item: "industrialforegoing:laser_lens8", weight: 5 }
+		{ item: "thermal:rf_coil_xfer_augment", weight: 5 }
+		{ item: "powah:energy_hopper_hardened", weight: 5 }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "draconicevolution:reaper_enchantment"
+					}]
+				}
+			}
+			weight: 5
+		}
+		{ item: "bloodmagic:lavasigil", weight: 5 }
+		{ item: "botania:light_blue_petal", count: 64, weight: 3 }
+		{ item: "botania:pink_petal", count: 64, weight: 3 }
+		{ item: "botania:light_gray_petal", count: 64, weight: 3 }
+		{ item: "mysticalagriculture:glowstone_seeds", weight: 2 }
+		{ item: "mysticalagriculture:redstone_seeds", weight: 2 }
+		{ item: "mysticalagriculture:obsidian_seeds", weight: 2 }
+		{ item: "mysticalagriculture:prismarine_seeds", weight: 2 }
+		{ item: "mysticalagriculture:zombie_seeds", weight: 2 }
+		{ item: "mysticalagriculture:skeleton_seeds", weight: 2 }
+		{ item: "mysticalagriculture:creeper_seeds", weight: 2 }
+		{ item: "mysticalagriculture:spider_seeds", weight: 2 }
+		{ item: "mysticalagriculture:rabbit_seeds", weight: 2 }
+		{ item: "mysticalagriculture:iron_seeds", weight: 2 }
+		{ item: "mysticalagriculture:nether_quartz_seeds", weight: 2 }
+	]
+}

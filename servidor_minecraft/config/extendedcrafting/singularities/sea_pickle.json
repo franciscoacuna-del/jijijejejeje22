@@ -1,0 +1,7 @@
+{
+    "name": "Sea Pickle",
+    "colors": ["565B1D", "B2E0AF"],
+    "ingredient": {
+        "item": "minecraft:sea_pickle"
+    }
+}

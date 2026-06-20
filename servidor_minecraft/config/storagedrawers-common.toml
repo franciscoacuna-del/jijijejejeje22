@@ -1,0 +1,36 @@
+
+[General]
+	#List of rules in format "domain:item1, domain:item2, n".
+	#Creates a compacting drawer rule to convert 1 of item1 into n of item2.
+	compactingRules = ["minecraft:clay, minecraft:clay_ball, 4", "rid:iron_cluster, rid:iron_chunk, 4", "rid:gold_cluster, rid:gold_chunk, 4", "rid:diamond_cluster, rid:diamond_chunk, 4", "rid:lapis_cluster, rid:lapis_chunk, 4", "rid:quartz_cluster, rid:quartz_chunk, 4", "rid:redstone_cluster, rid:redstone_chunk, 4", "rid:emerald_cluster, rid:emerald_chunk, 4", "rid:copper_cluster, rid:copper_chunk, 4", "rid:cobalt_cluster, rid:cobalt_chunk, 4", "rid:lead_cluster, rid:lead_chunk, 4", "rid:tin_cluster, rid:tin_chunk, 4", "rid:silver_cluster, rid:silver_chunk, 4", "rid:nickel_cluster, rid:nickel_chunk, 4", "rid:osmium_cluster, rid:osmium_chunk, 4", "rid:fluorite_cluster, rid:fluorite_chunk, 4", "rid:uranium_cluster, rid:uranium_chunk, 4", "rid:aluminum_cluster, rid:aluminum_chunk, 4", "rid:titanium_cluster, rid:titanium_chunk, 4", "powah:uraninite_raw_dense, powah:uraninite_raw, 2", "powah:uraninite_raw, powah:uraninite_raw_poor, 2", "thermal:sapphire_block, projectred-core:sapphire, 9", "thermal:ruby_block, projectred-core:ruby, 9", "thermal:silver_block, thermal:silver_ingot, 9", "thermal:silver_ingot, thermal:silver_nugget, 9", "thermal:copper_block, thermal:copper_ingot, 9", "thermal:copper_ingot, thermal:copper_nugget, 9", "thermal:tin_block, thermal:tin_ingot, 9", "thermal:tin_ingot, thermal:tin_nugget, 9", "thermal:lead_block, thermal:lead_ingot, 9", "thermal:lead_ingot, thermal:lead_nugget, 9", "thermal:nickel_block, thermal:nickel_ingot, 9", "thermal:nickel_ingot, thermal:nickel_nugget, 9", "thermal:bronze_block, thermal:bronze_ingot, 9", "thermal:bronze_ingot, thermal:bronze_nugget, 9", "thermal:electrum_block, thermal:electrum_ingot, 9", "thermal:electrum_ingot, thermal:electrum_nugget, 9", "thermal:constantan_block, thermal:constantan_ingot, 9", "thermal:constantan_ingot, thermal:constantan_nugget, 9", "immersiveengineering:storage_steel, immersiveengineering:ingot_steel, 9", "immersiveengineering:ingot_steel, immersiveengineering:nugget_steel, 9", "rid:1x_compressed_sand, minecraft:sand, 9"]
+	enableUI = true
+	debugTrace = false
+	enableItemConversion = true
+	enableSidedInput = true
+	#The number of item stacks held in a basic unit of storage.
+	#1x1 drawers hold 8 units, 1x2 drawers hold 4 units, 2x2 drawers hold 2 units.
+	#Half-depth drawers hold half those amounts.
+	baseStackStorage = 4
+	enableExtraCompactingRules = true
+	#Controller range defines how far away a drawer can be connected
+	#on X, Y, or Z planes.  The default value of 50 gives the controller a very
+	#large range, but not beyond the chunk load distance.
+	#Range: 1 ~ 75
+	controllerRange = 12
+	enableSidedOutput = true
+
+[StorageUpgrades]
+	level2Mult = 4
+	#Storage upgrades multiply storage capacity by the given amount.
+	#When multiple storage upgrades are used together, their multipliers are added before being applied.
+	level1Mult = 2
+	level3Mult = 8
+	level5Mult = 32
+	level4Mult = 16
+
+[Integration]
+	#When true, shows quantity as NxS + R (by stack size) rather than count
+	wailaStackRemainder = true
+	#When true, does not show current quantities unless quantify key was used
+	wailaRespectQuantifyKey = false
+
